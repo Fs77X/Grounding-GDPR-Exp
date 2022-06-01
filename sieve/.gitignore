@@ -19,7 +19,5 @@ target/
 *.csv
 *.swp
 
-*data/
-
 *credentials/
 node_modules/
