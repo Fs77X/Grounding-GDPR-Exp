@@ -47,8 +47,8 @@ CREATE TABLE usertable(id character varying(50) NOT NULL,
   obs_time character varying(255) NOT NULL,
   user_interest character varying(20),
   device_id integer NOT NULL
-  );
-    CREATE user_policy(
+);
+CREATE TABLE user_policy(
     id character varying(50) NOT NULL,
     querier character varying(255) NOT NULL,
     purpose character varying(255) NOT NULL,
@@ -60,8 +60,8 @@ CREATE TABLE usertable(id character varying(50) NOT NULL,
     inserted_at character varying(255) NOT NULL,
     tomb integer NOT NULL,
     device_id integer NOT NULL,
-  );
-  create index tomb_index on user_policy (tomb);
+);
+create index tomb_index on user_policy (tomb);
 ```
 
 Download the following jar files:
