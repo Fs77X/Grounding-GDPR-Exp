@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE suppressions PUBLIC
+    "-//Puppy Crawl//DTD Suppressions 1.1//EN"
+    "http://www.puppycrawl.com/dtds/suppressions_1_1.dtd">
+
+<suppressions>
+    <suppress files="DefaultDBFlavor\.java" checks="[a-zA-Z0-9]*"/>
+    <suppress files="ScheduledTraceExecutorService\.java" checks="[a-zA-Z0-9]*"/>
+    <suppress files="MilliSpan\.java" checks="[a-zA-Z0-9]*"/>
+    <suppress files="TraceCallable\.java" checks="[a-zA-Z0-9]*"/>
+    <suppress files="TraceRunnable\.java" checks="[a-zA-Z0-9]*"/>
+    <suppress files="LocalFileSpanReceiver\.java" checks="[a-zA-Z0-9]*"/>
+    <suppress files="SpanId.java\.java" checks="[a-zA-Z0-9]*"/>
+    <suppress files="TracerId\.java" checks="[a-zA-Z0-9]*"/>
+    <suppress files="CountSampler\.java" checks="[a-zA-Z0-9]*"/>
+    <suppress files="ProbabilitySampler\.java" checks="[a-zA-Z0-9]*"/>
+    <suppress files="JavaPropertyConfiguration\.java" checks="[a-zA-Z0-9]*"/>
+    <suppress files="SpanReceiver\.java" checks="[a-zA-Z0-9]*"/>
+    <suppress files="SpanId\.java" checks="[a-zA-Z0-9]*"/>
+    <suppress files="TimelineAnnotation\.java" checks="[a-zA-Z0-9]*"/>
+    <suppress files="Tracer\.java" checks="[a-zA-Z0-9]*"/>
+    <suppress files="TraceScope\.java" checks="[a-zA-Z0-9]*"/>
+    <suppress files="Sampler\.java" checks="[a-zA-Z0-9]*"/>
+    <suppress files="Span\.java" checks="[a-zA-Z0-9]*"/>
+    <suppress files="MaddObj\.java" checks="[a-zA-Z0-9]*"/>
+    <suppress files="MallData\.java" checks="[a-zA-Z0-9]*"/>
+    <suppress files="MetaData\.java" checks="[a-zA-Z0-9]*"/>
+    <suppress files="MmetaController\.java" checks="[a-zA-Z0-9]*"/>
+    <suppress files="JdbcDBClient\.java" checks="[a-zA-Z0-9]*"/>
+    <suppress files="BasicDB\.java" checks="[a-zA-Z0-9]*"/>
+    <suppress files="GoodBadUglyDB\.java" checks="[a-zA-Z0-9]*"/>
+    <suppress files="GDPRWorkload\.java" checks="[a-zA-Z0-9]*"/>
+    <suppress files="DB\.java" checks="[a-zA-Z0-9]*"/>
+    <suppress files="DBWrapper\.java" checks="[a-zA-Z0-9]*"/>
+    <suppress files="RedisClient\.java" checks="[a-zA-Z0-9]*"/>
+    <suppress files="MgetEntry\.java" checks="[a-zA-Z0-9]*"/>
+</suppressions>
