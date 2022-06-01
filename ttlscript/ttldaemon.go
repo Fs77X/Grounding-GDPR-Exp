@@ -409,7 +409,7 @@ func gdprLSTTL() {
 // basically same step with tombstoning
 func main() {
 	var db *sql.DB
-	tick := time.Tick(5 * time.Minute)
+	tick := time.Tick(5 * time.Second)
 	if os.Args[1] == "p2" {
 		db = setupSieve()
 	} else {
