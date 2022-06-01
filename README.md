@@ -75,6 +75,9 @@ CREATE TABLE usertable(id character varying(50) NOT NULL,
   inserted_at character varying(255) NOT NULL,
   tomb integer NOT NULL
   );
+
+# only do the following when running tombestone experiments
+  CREATE INDEX tomb_index ON usertable (tomb);
 ```
 
 Download the following jar files:
