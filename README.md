@@ -8,3 +8,4 @@ List of branches:
 - p1bench
 - p2bench
 - p2ycsb
+- p3bench
