@@ -15,6 +15,18 @@ NOTE: Experiments were ran with CSVLog enabled in PostgreSQL
 Resource for instructions on enabling CSVLog:
 https://www.loggly.com/use-cases/postgresql-logs-logging-setup-and-troubleshooting/
 
+Edit the file /etc/postgresql/14/main/pg_hba.conf and replace the three type values below the comment:
+```bash 
+# "local" is for Unix domain socket connections only
+``` 
+ with METHOD value of trust.
+
+Edit the file /etc/postgresql/14/main/postgresql.conf with the following max_connection:
+```bash
+max_connections = 100000
+```
+This allows postgresql to accpet many connections very fast which is needed for the benchmark.
+
 In a terminal run the following as the postgres user:
 ```bash
 sudo su postgres # to switch to postgres
