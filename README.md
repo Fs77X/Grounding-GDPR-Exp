@@ -10,6 +10,8 @@ This branch contains the code to run the experiments from figure 5/table 3.
 4. Apache Maven 3.6.3 (sudo apt install maven on debian oses)
 5. Encrypted disk using OpenZFS AES-256-GCM (https://openzfs.github.io/openzfs-docs/Getting%20Started/Ubuntu/Ubuntu%2020.04%20Root%20on%20ZFS.html)
 
+NOTE: For Prereq 5, it is recommended to use the ubuntu 20.04 installer and follow the methods as shown in the section for the ubuntu installer. Not only is it much easier but much faster! :) 
+
 ## How to run
 NOTE: Experiments were ran with CSVLog enabled in PostgreSQL
 
