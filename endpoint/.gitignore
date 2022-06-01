@@ -1,3 +1,4 @@
 /node_modules/
 /hfc-key-store/
 dblogs/
+/package-lock.json
