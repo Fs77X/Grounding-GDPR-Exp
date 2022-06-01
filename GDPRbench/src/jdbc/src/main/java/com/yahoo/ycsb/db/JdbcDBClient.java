@@ -568,7 +568,6 @@ public class JdbcDBClient extends DB {
         // TODO Auto-generated catch block
         e1.printStackTrace();
       }
-      System.out.println(jsonString);
       MediaType mediaType = MediaType.parse("application/json");
       RequestBody body = RequestBody.create(mediaType,
           jsonString);
@@ -578,7 +577,7 @@ public class JdbcDBClient extends DB {
           .addHeader("Content-Type", "application/json")
           .build();
       Response response = client.newCall(request).execute();
-      System.out.println("RESPONSE CODE IN RMD: " + response.code());
+      // System.out.println("RESPONSE CODE IN RMD: " + response.code());
       ResponseBody boi = response.body();
       boi.close();
       return Status.OK;
@@ -598,7 +597,7 @@ public class JdbcDBClient extends DB {
           .method("GET", null)
           .build();
       Response response = client.newCall(request).execute();
-      System.out.println("RESPONSE CODE IN RMD: " + response.code());
+      // System.out.println("RESPONSE CODE IN RMD: " + response.code());
       ResponseBody boi = response.body();
       boi.close();
       return Status.OK;
@@ -712,8 +711,8 @@ public class JdbcDBClient extends DB {
   @Override
   public Status update(String tableName, String key, Map<String, ByteIterator> values) {
     try {
-      System.out.println("Key in update " + key);
-      System.out.println("Values in update" + values);
+      // System.out.println("Key in update " + key);
+      // System.out.println("Values in update" + values);
       Status updateObj = actualUpdate(key, values);
       if (!updateObj.isOk()) {
         return Status.ERROR;
@@ -1070,11 +1069,11 @@ public class JdbcDBClient extends DB {
       ResponseBody boi = response.body();
       ObjectMapper mapper = new ObjectMapper();
       // System.out.println(boi.string());
-      System.out.println("reach b4b4here");
+      // System.out.println("reach b4b4here");
       TTLBlob count = mapper.readValue(boi.string(), TTLBlob.class);
-      System.out.println("reach b4here");
+      // System.out.println("reach b4here");
       boi.close();
-      System.out.println("reach here");
+      // System.out.println("reach here");
       return Long.parseLong(count.getIDCount());
     } catch (Exception e) {
       System.out.println(e);

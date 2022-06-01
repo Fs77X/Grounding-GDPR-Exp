@@ -1168,8 +1168,6 @@ public class GDPRWorkload extends Workload {
       // update a random field
       values = buildSingleValue(keynum, keyname);
     }
-    System.out.println("Update");
-    System.out.println(values);
     db.update(table, keyname, values);
   }
 
