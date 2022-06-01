@@ -1,0 +1,1709 @@
+/home/linuxbrew/.linuxbrew/bin/java  -classpath /home/farquad/project/fork/GDPRbench/src/conf:/home/farquad/project/fork/GDPRbench/src/core/target/core-0.16.0-SNAPSHOT.jar:/home/farquad/project/fork/GDPRbench/src/core/target/dependency/HdrHistogram-2.1.4.jar:/home/farquad/project/fork/GDPRbench/src/core/target/dependency/htrace-core4-4.2.0-incubating.jar:/home/farquad/project/fork/GDPRbench/src/jdbc/src/main/conf:/home/farquad/project/fork/GDPRbench/src/jdbc/target/jdbc-binding-0.16.0-SNAPSHOT.jar:/home/farquad/project/fork/GDPRbench/src/jdbc/target/dependency/checker-qual-3.5.0.jar:/home/farquad/project/fork/GDPRbench/src/jdbc/target/dependency/commons-collections-3.2.1.jar:/home/farquad/project/fork/GDPRbench/src/jdbc/target/dependency/commons-lang-2.4.jar:/home/farquad/project/fork/GDPRbench/src/jdbc/target/dependency/commons-pool-1.5.4.jar:/home/farquad/project/fork/GDPRbench/src/jdbc/target/dependency/geronimo-jms_1.1_spec-1.1.1.jar:/home/farquad/project/fork/GDPRbench/src/jdbc/target/dependency/geronimo-jta_1.1_spec-1.1.1.jar:/home/farquad/project/fork/GDPRbench/src/jdbc/target/dependency/jackson-annotations-2.12.3.jar:/home/farquad/project/fork/GDPRbench/src/jdbc/target/dependency/jackson-core-2.10.2.jar:/home/farquad/project/fork/GDPRbench/src/jdbc/target/dependency/jackson-databind-2.10.2.jar:/home/farquad/project/fork/GDPRbench/src/jdbc/target/dependency/okhttp-3.11.0.jar:/home/farquad/project/fork/GDPRbench/src/jdbc/target/dependency/okio-1.14.0.jar:/home/farquad/project/fork/GDPRbench/src/jdbc/target/dependency/openjpa-jdbc-2.1.1.jar:/home/farquad/project/fork/GDPRbench/src/jdbc/target/dependency/openjpa-kernel-2.1.1.jar:/home/farquad/project/fork/GDPRbench/src/jdbc/target/dependency/openjpa-lib-2.1.1.jar:/home/farquad/project/fork/GDPRbench/src/jdbc/target/dependency/postgresql-42.2.20.jar:/home/farquad/project/fork/GDPRbench/src/jdbc/target/dependency/serp-1.13.1.jar com.yahoo.ycsb.Client -t -db com.yahoo.ycsb.db.JdbcDBClient -P ./jdbc/src/main/conf/db.properties -P ./workloads/gdpr_customer -s
+Adding shard node URL: jdbc:postgresql://127.0.0.1:5432/test
+Using shards: 1, batchSize:-1, fetchSize: -1
+we in the verifyttl
+usertable 9000
+reach b4b4here
+reach b4here
+reach here
+Keys in vttl: 9000
+145
+{"time":1624586944,"action":"createUser","actor":"mw","user":"key0"}
+{"property":"TTL","action":"add","time":1624586944,"user":"key0","info":"30"}
+{"property":"purpose","action":"add","time":1624586944,"user":"key0","info":"purpose0"}
+{"property":"adm","action":"add","time":1624586944,"user":"key0","info":"dec0"}
+{"property":"origin","action":"add","time":1624586944,"user":"key0","info":"src0"}
+{"property":"objection","action":"add","time":1624586944,"user":"key0","info":"obj0"}
+{"property":"sharing","action":"add","time":1624586944,"user":"key0","info":"shr0"}
+{"property":"cat","action":"add","time":1624586944,"user":"key0","info":"cat0"}
+{"property":"acl","action":"add","time":1624586944,"user":"key0","info":"acl0"}
+{"time":1624586944,"action":"createUser","actor":"mw","user":"key1"}
+{"property":"TTL","action":"add","time":1624586944,"user":"key1","info":"10000"}
+{"property":"purpose","action":"add","time":1624586944,"user":"key1","info":"purpose1"}
+{"property":"adm","action":"add","time":1624586944,"user":"key1","info":"dec1"}
+{"property":"origin","action":"add","time":1624586944,"user":"key1","info":"src1"}
+{"property":"objection","action":"add","time":1624586944,"user":"key1","info":"obj1"}
+{"property":"sharing","action":"add","time":1624586944,"user":"key1","info":"shr1"}
+{"property":"cat","action":"add","time":1624586944,"user":"key1","info":"cat1"}
+{"property":"acl","action":"add","time":1624586944,"user":"key1","info":"acl1"}
+{"time":1624586944,"action":"createUser","actor":"mw","user":"key2"}
+{"property":"TTL","action":"add","time":1624586944,"user":"key2","info":"12000"}
+{"property":"purpose","action":"add","time":1624586944,"user":"key2","info":"purpose2"}
+{"property":"adm","action":"add","time":1624586944,"user":"key2","info":"dec0"}
+{"property":"origin","action":"add","time":1624586944,"user":"key2","info":"src2"}
+{"property":"objection","action":"add","time":1624586944,"user":"key2","info":"obj2"}
+{"property":"sharing","action":"add","time":1624586944,"user":"key2","info":"shr2"}
+{"property":"cat","action":"add","time":1624586944,"user":"key2","info":"cat2"}
+{"property":"acl","action":"add","time":1624586944,"user":"key2","info":"acl2"}
+{"time":1624586944,"action":"createUser","actor":"mw","user":"key3"}
+{"property":"TTL","action":"add","time":1624586944,"user":"key3","info":"14000"}
+{"property":"purpose","action":"add","time":1624586944,"user":"key3","info":"purpose3"}
+{"property":"adm","action":"add","time":1624586944,"user":"key3","info":"dec1"}
+{"property":"origin","action":"add","time":1624586944,"user":"key3","info":"src3"}
+{"property":"objection","action":"add","time":1624586944,"user":"key3","info":"obj3"}
+{"property":"sharing","action":"add","time":1624586944,"user":"key3","info":"shr3"}
+{"property":"cat","action":"add","time":1624586944,"user":"key3","info":"cat3"}
+{"property":"acl","action":"add","time":1624586944,"user":"key3","info":"acl3"}
+{"time":1624586944,"action":"createUser","actor":"mw","user":"key4"}
+{"property":"TTL","action":"add","time":1624586944,"user":"key4","info":"16000"}
+{"property":"purpose","action":"add","time":1624586944,"user":"key4","info":"purpose4"}
+{"property":"adm","action":"add","time":1624586944,"user":"key4","info":"dec0"}
+{"property":"origin","action":"add","time":1624586944,"user":"key4","info":"src4"}
+{"property":"objection","action":"add","time":1624586944,"user":"key4","info":"obj4"}
+{"property":"sharing","action":"add","time":1624586944,"user":"key4","info":"shr4"}
+{"property":"cat","action":"add","time":1624586944,"user":"key4","info":"cat4"}
+{"property":"acl","action":"add","time":1624586944,"user":"key4","info":"acl4"}
+{"time":1624586944,"action":"createUser","actor":"mw","user":"key5"}
+{"property":"TTL","action":"add","time":1624586944,"user":"key5","info":"18000"}
+{"property":"purpose","action":"add","time":1624586944,"user":"key5","info":"purpose5"}
+{"property":"adm","action":"add","time":1624586944,"user":"key5","info":"dec1"}
+{"property":"origin","action":"add","time":1624586944,"user":"key5","info":"src5"}
+{"property":"objection","action":"add","time":1624586944,"user":"key5","info":"obj5"}
+{"property":"sharing","action":"add","time":1624586944,"user":"key5","info":"shr5"}
+{"property":"cat","action":"add","time":1624586944,"user":"key5","info":"cat5"}
+{"property":"acl","action":"add","time":1624586944,"user":"key5","info":"acl5"}
+{"time":1624586944,"action":"createUser","actor":"mw","user":"key6"}
+{"property":"TTL","action":"add","time":1624586944,"user":"key6","info":"20000"}
+{"property":"purpose","action":"add","time":1624586944,"user":"key6","info":"purpose6"}
+{"property":"adm","action":"add","time":1624586944,"user":"key6","info":"dec0"}
+{"property":"origin","action":"add","time":1624586944,"user":"key6","info":"src6"}
+{"property":"objection","action":"add","time":1624586944,"user":"key6","info":"obj6"}
+{"property":"sharing","action":"add","time":1624586944,"user":"key6","info":"shr6"}
+{"property":"cat","action":"add","time":1624586944,"user":"key6","info":"cat6"}
+{"property":"acl","action":"add","time":1624586944,"user":"key6","info":"acl6"}
+{"time":1624586944,"action":"createUser","actor":"mw","user":"key7"}
+{"property":"TTL","action":"add","time":1624586944,"user":"key7","info":"22000"}
+{"property":"purpose","action":"add","time":1624586944,"user":"key7","info":"purpose7"}
+{"property":"adm","action":"add","time":1624586944,"user":"key7","info":"dec1"}
+{"property":"origin","action":"add","time":1624586944,"user":"key7","info":"src7"}
+{"property":"objection","action":"add","time":1624586944,"user":"key7","info":"obj7"}
+{"property":"sharing","action":"add","time":1624586944,"user":"key7","info":"shr7"}
+{"property":"cat","action":"add","time":1624586944,"user":"key7","info":"cat7"}
+{"property":"acl","action":"add","time":1624586944,"user":"key7","info":"acl7"}
+{"time":1624586944,"action":"createUser","actor":"mw","user":"key8"}
+{"property":"TTL","action":"add","time":1624586944,"user":"key8","info":"24000"}
+{"property":"purpose","action":"add","time":1624586944,"user":"key8","info":"purpose8"}
+{"property":"adm","action":"add","time":1624586944,"user":"key8","info":"dec0"}
+{"property":"origin","action":"add","time":1624586944,"user":"key8","info":"src8"}
+{"property":"objection","action":"add","time":1624586944,"user":"key8","info":"obj8"}
+{"property":"sharing","action":"add","time":1624586944,"user":"key8","info":"shr8"}
+{"property":"cat","action":"add","time":1624586944,"user":"key8","info":"cat8"}
+{"property":"acl","action":"add","time":1624586944,"user":"key8","info":"acl8"}
+{"time":1624586944,"action":"createUser","actor":"mw","user":"key9"}
+{"property":"TTL","action":"add","time":1624586944,"user":"key9","info":"1000000"}
+{"property":"purpose","action":"add","time":1624586944,"user":"key9","info":"purpose9"}
+{"property":"adm","action":"add","time":1624586944,"user":"key9","info":"dec1"}
+{"property":"origin","action":"add","time":1624586944,"user":"key9","info":"src9"}
+{"property":"objection","action":"add","time":1624586944,"user":"key9","info":"obj9"}
+{"property":"sharing","action":"add","time":1624586944,"user":"key9","info":"shr9"}
+{"property":"cat","action":"add","time":1624586944,"user":"key9","info":"cat9"}
+{"property":"acl","action":"add","time":1624586944,"user":"key9","info":"acl9"}
+{"time":1624586944,"action":"createUser","actor":"mw","user":"key10"}
+{"property":"TTL","action":"add","time":1624586944,"user":"key10","info":"30"}
+{"property":"purpose","action":"add","time":1624586944,"user":"key10","info":"purpose10"}
+{"property":"adm","action":"add","time":1624586944,"user":"key10","info":"dec0"}
+{"property":"origin","action":"add","time":1624586944,"user":"key10","info":"src0"}
+{"property":"objection","action":"add","time":1624586944,"user":"key10","info":"obj10"}
+{"property":"sharing","action":"add","time":1624586944,"user":"key10","info":"shr0"}
+{"property":"cat","action":"add","time":1624586944,"user":"key10","info":"cat0"}
+{"property":"acl","action":"add","time":1624586944,"user":"key10","info":"acl0"}
+{"time":1624586944,"action":"createUser","actor":"mw","user":"key11"}
+{"property":"TTL","action":"add","time":1624586944,"user":"key11","info":"10000"}
+{"property":"purpose","action":"add","time":1624586944,"user":"key11","info":"purpose11"}
+{"property":"adm","action":"add","time":1624586944,"user":"key11","info":"dec1"}
+{"property":"origin","action":"add","time":1624586944,"user":"key11","info":"src1"}
+{"property":"objection","action":"add","time":1624586944,"user":"key11","info":"obj11"}
+{"property":"sharing","action":"add","time":1624586944,"user":"key11","info":"shr1"}
+{"property":"cat","action":"add","time":1624586944,"user":"key11","info":"cat1"}
+{"property":"acl","action":"add","time":1624586944,"user":"key11","info":"acl1"}
+{"time":1624586944,"action":"createUser","actor":"mw","user":"key12"}
+{"property":"TTL","action":"add","time":1624586944,"user":"key12","info":"12000"}
+{"property":"purpose","action":"add","time":1624586944,"user":"key12","info":"purpose12"}
+{"property":"adm","action":"add","time":1624586944,"user":"key12","info":"dec0"}
+{"property":"origin","action":"add","time":1624586944,"user":"key12","info":"src2"}
+{"property":"objection","action":"add","time":1624586944,"user":"key12","info":"obj12"}
+{"property":"sharing","action":"add","time":1624586944,"user":"key12","info":"shr2"}
+{"property":"cat","action":"add","time":1624586944,"user":"key12","info":"cat2"}
+{"property":"acl","action":"add","time":1624586944,"user":"key12","info":"acl2"}
+{"time":1624586944,"action":"createUser","actor":"mw","user":"key13"}
+{"property":"TTL","action":"add","time":1624586944,"user":"key13","info":"14000"}
+{"property":"purpose","action":"add","time":1624586944,"user":"key13","info":"purpose13"}
+{"property":"adm","action":"add","time":1624586944,"user":"key13","info":"dec1"}
+{"property":"origin","action":"add","time":1624586944,"user":"key13","info":"src3"}
+{"property":"objection","action":"add","time":1624586944,"user":"key13","info":"obj13"}
+{"property":"sharing","action":"add","time":1624586944,"user":"key13","info":"shr3"}
+{"property":"cat","action":"add","time":1624586944,"user":"key13","info":"cat3"}
+{"property":"acl","action":"add","time":1624586944,"user":"key13","info":"acl3"}
+{"time":1624586944,"action":"createUser","actor":"mw","user":"key14"}
+{"property":"TTL","action":"add","time":1624586944,"user":"key14","info":"16000"}
+{"property":"purpose","action":"add","time":1624586944,"user":"key14","info":"purpose14"}
+{"property":"adm","action":"add","time":1624586944,"user":"key14","info":"dec0"}
+{"property":"origin","action":"add","time":1624586944,"user":"key14","info":"src4"}
+{"property":"objection","action":"add","time":1624586944,"user":"key14","info":"obj14"}
+{"property":"sharing","action":"add","time":1624586944,"user":"key14","info":"shr4"}
+{"property":"cat","action":"add","time":1624586944,"user":"key14","info":"cat4"}
+{"property":"acl","action":"add","time":1624586944,"user":"key14","info":"acl4"}
+{"time":1624586944,"action":"createUser","actor":"mw","user":"key15"}
+{"property":"TTL","action":"add","time":1624586944,"user":"key15","info":"18000"}
+{"property":"purpose","action":"add","time":1624586944,"user":"key15","info":"purpose15"}
+{"property":"adm","action":"add","time":1624586944,"user":"key15","info":"dec1"}
+{"property":"origin","action":"add","time":1624586944,"user":"key15","info":"src5"}
+{"property":"objection","action":"add","time":1624586944,"user":"key15","info":"obj15"}
+{"property":"sharing","action":"add","time":1624586944,"user":"key15","info":"shr5"}
+{"property":"cat","action":"add","time":1624586944,"user":"key15","info":"cat5"}
+{"property":"acl","action":"add","time":1624586944,"user":"key15","info":"acl5"}
+{"time":1624586944,"action":"createUser","actor":"mw","user":"key16"}
+Update
+{DEC=dec0, USR=user5672, SRC=src2, OBJ=obj72, CAT=cat2, ACL=acl2, Data=56721632572567276005287656722765225715672630260124567216316874825672-2433202385672-13050128085672173, PUR=purpose22, SHR=shr2, TTL=12000}
+Key in update key5672
+Values in update{DEC=dec0, USR=user5672, SRC=src2, OBJ=obj72, CAT=cat2, ACL=acl2, Data=56721632572567276005287656722765225715672630260124567216316874825672-2433202385672-13050128085672173, PUR=purpose22, SHR=shr2, TTL=12000}
+we in the read
+["key5449"]
+[]
+we in the read
+we in the read
+Update
+{DEC=dec1, USR=user2567, SRC=src7, OBJ=obj67, CAT=cat7, ACL=acl7, Data=25671542212256718263900012567-4339324732567-1429925022567-3981969712567-634572452567-146570898425675, PUR=purpose17, SHR=shr7, TTL=22000}
+Key in update key2567
+Values in update{DEC=dec1, USR=user2567, SRC=src7, OBJ=obj67, CAT=cat7, ACL=acl7, Data=25671542212256718263900012567-4339324732567-1429925022567-3981969712567-634572452567-146570898425675, PUR=purpose17, SHR=shr7, TTL=22000}
+Update
+{DEC=dec0, USR=user9154, SRC=src4, OBJ=obj54, CAT=cat4, ACL=acl4, Data=915417468719154612130698915411514239479154-17867326999154-19698557419154-198619032891541404343539915, PUR=purpose4, SHR=shr4, TTL=16000}
+Key in update key9154
+Values in update{DEC=dec0, USR=user9154, SRC=src4, OBJ=obj54, CAT=cat4, ACL=acl4, Data=915417468719154612130698915411514239479154-17867326999154-19698557419154-198619032891541404343539915, PUR=purpose4, SHR=shr4, TTL=16000}
+["key3089"]
+[]
+we in the read
+[]
+[{"prop": "purpose", "info": "purpose22"}]
+we in the read
+Update
+{DEC=dec0, USR=user7690, SRC=src0, OBJ=obj90, CAT=cat0, ACL=acl0, Data=7690169221476902137980887769020394185187690111764372976901026013174769049107809176905339311827690164, PUR=purpose15, SHR=shr0, TTL=30}
+Key in update key7690
+Values in update{DEC=dec0, USR=user7690, SRC=src0, OBJ=obj90, CAT=cat0, ACL=acl0, Data=7690169221476902137980887769020394185187690111764372976901026013174769049107809176905339311827690164, PUR=purpose15, SHR=shr0, TTL=30}
+[]
+[{"prop": "purpose", "info": "purpose11"}]
+["key8957"]
+[]
+Update
+{DEC=dec0, USR=user3728, SRC=src8, OBJ=obj28, CAT=cat8, ACL=acl8, Data=3728157380237289474234823728-1074762107372817226740673728-193288118337282057161848372815946624183728, PUR=purpose3, SHR=shr8, TTL=24000}
+Key in update key3728
+Values in update{DEC=dec0, USR=user3728, SRC=src8, OBJ=obj28, CAT=cat8, ACL=acl8, Data=3728157380237289474234823728-1074762107372817226740673728-193288118337282057161848372815946624183728, PUR=purpose3, SHR=shr8, TTL=24000}
+we in the read
+we in the read
+Update
+{DEC=dec1, USR=user5897, SRC=src7, OBJ=obj97, CAT=cat7, ACL=acl7, Data=589716345615897-103135410258977171294105897-16511374175897140122412558978335954265897154840396658979, PUR=purpose22, SHR=shr7, TTL=22000}
+Key in update key5897
+Values in update{DEC=dec1, USR=user5897, SRC=src7, OBJ=obj97, CAT=cat7, ACL=acl7, Data=589716345615897-103135410258977171294105897-16511374175897140122412558978335954265897154840396658979, PUR=purpose22, SHR=shr7, TTL=22000}
+[]
+[{"prop": "purpose", "info": "purpose10"}]
+we in the read
+[]
+[{"prop": "purpose", "info": "purpose18"}]
+Update
+{DEC=dec0, USR=user6308, SRC=src8, OBJ=obj8, CAT=cat8, ACL=acl8, Data=630816592696308-372189396630817792544806308-20668578326308-1922338996308-121776739630817482055166308, PUR=purpose8, SHR=shr8, TTL=24000}
+Key in update key6308
+Values in update{DEC=dec0, USR=user6308, SRC=src8, OBJ=obj8, CAT=cat8, ACL=acl8, Data=630816592696308-372189396630817792544806308-20668578326308-1922338996308-121776739630817482055166308, PUR=purpose8, SHR=shr8, TTL=24000}
+[]
+[{"prop": "purpose", "info": "purpose2"}]
+["key3783"]
+[]
+Update
+{DEC=dec1, USR=user1669, SRC=src9, OBJ=obj69, CAT=cat9, ACL=acl9, Data=166915133841669-2635899111669-13250372261669-18724524741669123733892916694156873021669-9985213821669, PUR=purpose19, SHR=shr9, TTL=1000000}
+Key in update key1669
+Values in update{DEC=dec1, USR=user1669, SRC=src9, OBJ=obj69, CAT=cat9, ACL=acl9, Data=166915133841669-2635899111669-13250372261669-18724524741669123733892916694156873021669-9985213821669, PUR=purpose19, SHR=shr9, TTL=1000000}
+Update
+{DEC=dec0, USR=user2532, SRC=src2, OBJ=obj32, CAT=cat2, ACL=acl2, Data=25321542114253211755286902532-8705447642532272987622532-1767175053253213681319062532-9239131282532-2, PUR=purpose7, SHR=shr2, TTL=12000}
+Key in update key2532
+Values in update{DEC=dec0, USR=user2532, SRC=src2, OBJ=obj32, CAT=cat2, ACL=acl2, Data=25321542114253211755286902532-8705447642532272987622532-1767175053253213681319062532-9239131282532-2, PUR=purpose7, SHR=shr2, TTL=12000}
+Update
+{DEC=dec1, USR=user1865, SRC=src5, OBJ=obj65, CAT=cat5, ACL=acl5, Data=1865151530218651463704301186515810493561865-5977416181865-152468770918651323458209186513027119821865, PUR=purpose15, SHR=shr5, TTL=18000}
+Key in update key1865
+Values in update{DEC=dec1, USR=user1865, SRC=src5, OBJ=obj65, CAT=cat5, ACL=acl5, Data=1865151530218651463704301186515810493561865-5977416181865-152468770918651323458209186513027119821865, PUR=purpose15, SHR=shr5, TTL=18000}
+[]
+[{"prop": "purpose", "info": "purpose3"}]
+Update
+{DEC=dec0, USR=user9604, SRC=src4, OBJ=obj4, CAT=cat4, ACL=acl4, Data=960417515219604-890903790960415668572239604-98956521196044241665796041779285279604-17671071709604767, PUR=purpose4, SHR=shr4, TTL=16000}
+Key in update key9604
+Values in update{DEC=dec0, USR=user9604, SRC=src4, OBJ=obj4, CAT=cat4, ACL=acl4, Data=960417515219604-890903790960415668572239604-98956521196044241665796041779285279604-17671071709604767, PUR=purpose4, SHR=shr4, TTL=16000}
+we in the read
+Update
+{DEC=dec0, USR=user3614, SRC=src4, OBJ=obj14, CAT=cat4, ACL=acl4, Data=361415728063614-5090630093614-2708979823614-16538029733614-9084868343614-16634132653614-114577449536, PUR=purpose14, SHR=shr4, TTL=16000}
+Key in update key3614
+Values in update{DEC=dec0, USR=user3614, SRC=src4, OBJ=obj14, CAT=cat4, ACL=acl4, Data=361415728063614-5090630093614-2708979823614-16538029733614-9084868343614-16634132653614-114577449536, PUR=purpose14, SHR=shr4, TTL=16000}
+[]
+[{"prop": "purpose", "info": "purpose5"}]
+[]
+[{"prop": "purpose", "info": "purpose23"}]
+Update
+{DEC=dec1, USR=user2713, SRC=src3, OBJ=obj13, CAT=cat3, ACL=acl3, Data=27131543975271313059056522713-13893142812713-155787153127139910564862713-121704663727131404388624271, PUR=purpose13, SHR=shr3, TTL=14000}
+Key in update key2713
+Values in update{DEC=dec1, USR=user2713, SRC=src3, OBJ=obj13, CAT=cat3, ACL=acl3, Data=27131543975271313059056522713-13893142812713-155787153127139910564862713-121704663727131404388624271, PUR=purpose13, SHR=shr3, TTL=14000}
+Update
+{DEC=dec0, USR=user7168, SRC=src8, OBJ=obj68, CAT=cat8, ACL=acl8, Data=716816873247168836409681716815128859127168-134917606671683751847227168-29765791571682043282337168-11, PUR=purpose18, SHR=shr8, TTL=24000}
+Key in update key7168
+Values in update{DEC=dec0, USR=user7168, SRC=src8, OBJ=obj68, CAT=cat8, ACL=acl8, Data=716816873247168836409681716815128859127168-134917606671683751847227168-29765791571682043282337168-11, PUR=purpose18, SHR=shr8, TTL=24000}
+we in the read
+[]
+[{"prop": "purpose", "info": "purpose18"}]
+we in the read
+Update
+{DEC=dec0, USR=user3420, SRC=src0, OBJ=obj20, CAT=cat0, ACL=acl0, Data=34201570911342014131803163420-153474590534209844278803420-4060077413420-1028917780342017224442133420, PUR=purpose20, SHR=shr0, TTL=30}
+Key in update key3420
+Values in update{DEC=dec0, USR=user3420, SRC=src0, OBJ=obj20, CAT=cat0, ACL=acl0, Data=34201570911342014131803163420-153474590534209844278803420-4060077413420-1028917780342017224442133420, PUR=purpose20, SHR=shr0, TTL=30}
+[]
+[{"prop": "purpose", "info": "purpose9"}]
+Update
+{DEC=dec1, USR=user299, SRC=src9, OBJ=obj99, CAT=cat9, ACL=acl9, Data=29949874299-1074727628299-15641667872991278876059299517005080299149131644299947503793299111057614299, PUR=purpose24, SHR=shr9, TTL=1000000}
+Key in update key299
+Values in update{DEC=dec1, USR=user299, SRC=src9, OBJ=obj99, CAT=cat9, ACL=acl9, Data=29949874299-1074727628299-15641667872991278876059299517005080299149131644299947503793299111057614299, PUR=purpose24, SHR=shr9, TTL=1000000}
+Update
+{DEC=dec0, USR=user5672, SRC=src2, OBJ=obj72, CAT=cat2, ACL=acl2, Data=56721632572567276005287656722765225715672630260124567216316874825672-2433202385672-13050128085672173, PUR=purpose22, SHR=shr2, TTL=12000}
+Key in update key5672
+Values in update{DEC=dec0, USR=user5672, SRC=src2, OBJ=obj72, CAT=cat2, ACL=acl2, Data=56721632572567276005287656722765225715672630260124567216316874825672-2433202385672-13050128085672173, PUR=purpose22, SHR=shr2, TTL=12000}
+we in the read
+we in the read
+[]
+[{"prop": "purpose", "info": "purpose24"}]
+Update
+{DEC=dec0, USR=user522, SRC=src2, OBJ=obj22, CAT=cat2, ACL=acl2, Data=52252533522-1292097326522652858231522-2179116125221830650856522-1673544415522-5833542995225161836295, PUR=purpose22, SHR=shr2, TTL=12000}
+Key in update key522
+Values in update{DEC=dec0, USR=user522, SRC=src2, OBJ=obj22, CAT=cat2, ACL=acl2, Data=52252533522-1292097326522652858231522-2179116125221830650856522-1673544415522-5833542995225161836295, PUR=purpose22, SHR=shr2, TTL=12000}
+Update
+{DEC=dec1, USR=user3419, SRC=src9, OBJ=obj19, CAT=cat9, ACL=acl9, Data=341915708893419-21063509803419-46429065434199677039963419-18047732133419-108444300934193377053683419, PUR=purpose19, SHR=shr9, TTL=1000000}
+Key in update key3419
+Values in update{DEC=dec1, USR=user3419, SRC=src9, OBJ=obj19, CAT=cat9, ACL=acl9, Data=341915708893419-21063509803419-46429065434199677039963419-18047732133419-108444300934193377053683419, PUR=purpose19, SHR=shr9, TTL=1000000}
+we in the read
+Update
+{DEC=dec1, USR=user7171, SRC=src1, OBJ=obj71, CAT=cat1, ACL=acl1, Data=717116873487171-299619949717118818026687171-4780213147171108577536171718227200107171-1927627887171-1, PUR=purpose21, SHR=shr1, TTL=10000}
+Key in update key7171
+Values in update{DEC=dec1, USR=user7171, SRC=src1, OBJ=obj71, CAT=cat1, ACL=acl1, Data=717116873487171-299619949717118818026687171-4780213147171108577536171718227200107171-1927627887171-1, PUR=purpose21, SHR=shr1, TTL=10000}
+Update
+{DEC=dec1, USR=user4927, SRC=src7, OBJ=obj27, CAT=cat7, ACL=acl7, Data=49271605514492717391587024927-741455191492771626894349275485894354927-141762712849275844550604927508, PUR=purpose2, SHR=shr7, TTL=22000}
+Key in update key4927
+Values in update{DEC=dec1, USR=user4927, SRC=src7, OBJ=obj27, CAT=cat7, ACL=acl7, Data=49271605514492717391587024927-741455191492771626894349275485894354927-141762712849275844550604927508, PUR=purpose2, SHR=shr7, TTL=22000}
+we in the read
+Update
+{DEC=dec1, USR=user5639, SRC=src9, OBJ=obj39, CAT=cat9, ACL=acl9, Data=56391632455563918952524005639695612479563988563420156392107368955639-488158733563918050815725639-418, PUR=purpose14, SHR=shr9, TTL=1000000}
+Key in update key5639
+Values in update{DEC=dec1, USR=user5639, SRC=src9, OBJ=obj39, CAT=cat9, ACL=acl9, Data=56391632455563918952524005639695612479563988563420156392107368955639-488158733563918050815725639-418, PUR=purpose14, SHR=shr9, TTL=1000000}
+Update
+{DEC=dec0, USR=user7538, SRC=src8, OBJ=obj38, CAT=cat8, ACL=acl8, Data=75381691075753820914988977538-5030306437538-3881689577538-15856567807538-18332907317538-725080082753, PUR=purpose13, SHR=shr8, TTL=24000}
+Key in update key7538
+Values in update{DEC=dec0, USR=user7538, SRC=src8, OBJ=obj38, CAT=cat8, ACL=acl8, Data=75381691075753820914988977538-5030306437538-3881689577538-15856567807538-18332907317538-725080082753, PUR=purpose13, SHR=shr8, TTL=24000}
+Update
+{DEC=dec0, USR=user4980, SRC=src0, OBJ=obj80, CAT=cat0, ACL=acl0, Data=4980160569349801907751744980-15300627604980-12672059284980-2944923884980-234559521498054920105349801, PUR=purpose5, SHR=shr0, TTL=30}
+Key in update key4980
+Values in update{DEC=dec0, USR=user4980, SRC=src0, OBJ=obj80, CAT=cat0, ACL=acl0, Data=4980160569349801907751744980-15300627604980-12672059284980-2944923884980-234559521498054920105349801, PUR=purpose5, SHR=shr0, TTL=30}
+we in the read
+we in the read
+we in the read
+[]
+[{"prop": "purpose", "info": "purpose12"}]
+Update
+{DEC=dec1, USR=user7577, SRC=src7, OBJ=obj77, CAT=cat7, ACL=acl7, Data=7577169119875771736336819757712338565807577-975250697757718440762627577-1792643510757712963444157577, PUR=purpose2, SHR=shr7, TTL=22000}
+Key in update key7577
+Values in update{DEC=dec1, USR=user7577, SRC=src7, OBJ=obj77, CAT=cat7, ACL=acl7, Data=7577169119875771736336819757712338565807577-975250697757718440762627577-1792643510757712963444157577, PUR=purpose2, SHR=shr7, TTL=22000}
+Update
+{DEC=dec1, USR=user7989, SRC=src9, OBJ=obj89, CAT=cat9, ACL=acl9, Data=79891695075798914076101257989210569122579899063401997989-9912861797989-7407850497989-153476814379891, PUR=purpose14, SHR=shr9, TTL=1000000}
+Key in update key7989
+Values in update{DEC=dec1, USR=user7989, SRC=src9, OBJ=obj89, CAT=cat9, ACL=acl9, Data=79891695075798914076101257989210569122579899063401997989-9912861797989-7407850497989-153476814379891, PUR=purpose14, SHR=shr9, TTL=1000000}
+we in the read
+we in the read
+["key6306"]
+[]
+we in the read
+Update
+{DEC=dec0, USR=user5806, SRC=src6, OBJ=obj6, CAT=cat6, ACL=acl6, Data=580616342815806-11250627795806-1276238783580616230139365806413346185580619976701915806-1717719368580, PUR=purpose6, SHR=shr6, TTL=20000}
+Key in update key5806
+Values in update{DEC=dec0, USR=user5806, SRC=src6, OBJ=obj6, CAT=cat6, ACL=acl6, Data=580616342815806-11250627795806-1276238783580616230139365806413346185580619976701915806-1717719368580, PUR=purpose6, SHR=shr6, TTL=20000}
+we in the read
+Update
+{DEC=dec1, USR=user3693, SRC=src3, OBJ=obj93, CAT=cat3, ACL=acl3, Data=3693157305336933877211343693-1572930659369311983302243693-1382987568369319053187093693-6919396433693, PUR=purpose18, SHR=shr3, TTL=14000}
+Key in update key3693
+Values in update{DEC=dec1, USR=user3693, SRC=src3, OBJ=obj93, CAT=cat3, ACL=acl3, Data=3693157305336933877211343693-1572930659369311983302243693-1382987568369319053187093693-6919396433693, PUR=purpose18, SHR=shr3, TTL=14000}
+Update
+{DEC=dec1, USR=user3361, SRC=src1, OBJ=obj61, CAT=cat1, ACL=acl1, Data=33611570075336116520792493361-12914303173361-17218795623361-18042779383361-12409987353361-6115742513, PUR=purpose11, SHR=shr1, TTL=10000}
+Key in update key3361
+Values in update{DEC=dec1, USR=user3361, SRC=src1, OBJ=obj61, CAT=cat1, ACL=acl1, Data=33611570075336116520792493361-12914303173361-17218795623361-18042779383361-12409987353361-6115742513, PUR=purpose11, SHR=shr1, TTL=10000}
+Update
+{DEC=dec1, USR=user5239, SRC=src9, OBJ=obj39, CAT=cat9, ACL=acl9, Data=523916286115239658727019523925007806152399693354855239-165252758652393819527752393228622345239-12165, PUR=purpose14, SHR=shr9, TTL=1000000}
+Key in update key5239
+Values in update{DEC=dec1, USR=user5239, SRC=src9, OBJ=obj39, CAT=cat9, ACL=acl9, Data=523916286115239658727019523925007806152399693354855239-165252758652393819527752393228622345239-12165, PUR=purpose14, SHR=shr9, TTL=1000000}
+Update
+{DEC=dec1, USR=user8435, SRC=src5, OBJ=obj35, CAT=cat5, ACL=acl5, Data=84351719902843510526477258435-74696920843521329241648435-2158253248435-14745698998435-17125461228435, PUR=purpose10, SHR=shr5, TTL=18000}
+Key in update key8435
+Values in update{DEC=dec1, USR=user8435, SRC=src5, OBJ=obj35, CAT=cat5, ACL=acl5, Data=84351719902843510526477258435-74696920843521329241648435-2158253248435-14745698998435-17125461228435, PUR=purpose10, SHR=shr5, TTL=18000}
+["key6877"]
+[]
+we in the read
+["key6223"]
+[]
+we in the read
+Update
+{DEC=dec1, USR=user4927, SRC=src7, OBJ=obj27, CAT=cat7, ACL=acl7, Data=49271605514492717391587024927-741455191492771626894349275485894354927-141762712849275844550604927508, PUR=purpose2, SHR=shr7, TTL=22000}
+Key in update key4927
+Values in update{DEC=dec1, USR=user4927, SRC=src7, OBJ=obj27, CAT=cat7, ACL=acl7, Data=49271605514492717391587024927-741455191492771626894349275485894354927-141762712849275844550604927508, PUR=purpose2, SHR=shr7, TTL=22000}
+["key5226"]
+[]
+["key9189"]
+[]
+Update
+{DEC=dec0, USR=user3458, SRC=src8, OBJ=obj58, CAT=cat8, ACL=acl8, Data=345815710123458-3831988293458139573936734581145589600345819601506613458-11472486883458-1868890876345, PUR=purpose8, SHR=shr8, TTL=24000}
+Key in update key3458
+Values in update{DEC=dec0, USR=user3458, SRC=src8, OBJ=obj58, CAT=cat8, ACL=acl8, Data=345815710123458-3831988293458139573936734581145589600345819601506613458-11472486883458-1868890876345, PUR=purpose8, SHR=shr8, TTL=24000}
+we in the read
+Update
+{DEC=dec0, USR=user6628, SRC=src8, OBJ=obj28, CAT=cat8, ACL=acl8, Data=66281662214662854931067666285610831196628993075736628-8838759826628-2974512696628-3520740716628-4973, PUR=purpose3, SHR=shr8, TTL=24000}
+Key in update key6628
+Values in update{DEC=dec0, USR=user6628, SRC=src8, OBJ=obj28, CAT=cat8, ACL=acl8, Data=66281662214662854931067666285610831196628993075736628-8838759826628-2974512696628-3520740716628-4973, PUR=purpose3, SHR=shr8, TTL=24000}
+[]
+[{"prop": "purpose", "info": "purpose12"}]
+we in the read
+we in the read
+["key5672"]
+[]
+we in the read
+Update
+{DEC=dec0, USR=user6854, SRC=src4, OBJ=obj54, CAT=cat4, ACL=acl4, Data=685416642256854165682888268541297344456854-136869314368541717262025685417461582036854-11394213396854, PUR=purpose4, SHR=shr4, TTL=16000}
+Key in update key6854
+Values in update{DEC=dec0, USR=user6854, SRC=src4, OBJ=obj54, CAT=cat4, ACL=acl4, Data=685416642256854165682888268541297344456854-136869314368541717262025685417461582036854-11394213396854, PUR=purpose4, SHR=shr4, TTL=16000}
+Update
+{DEC=dec0, USR=user1480, SRC=src0, OBJ=obj80, CAT=cat0, ACL=acl0, Data=1480151151514801383848437148013991196891480-10370088601480-9147840311480-10606171461480471795701480-, PUR=purpose5, SHR=shr0, TTL=30}
+Key in update key1480
+Values in update{DEC=dec0, USR=user1480, SRC=src0, OBJ=obj80, CAT=cat0, ACL=acl0, Data=1480151151514801383848437148013991196891480-10370088601480-9147840311480-10606171461480471795701480-, PUR=purpose5, SHR=shr0, TTL=30}
+we in the read
+we in the read
+we in the read
+Update
+{DEC=dec1, USR=user6347, SRC=src7, OBJ=obj47, CAT=cat7, ACL=acl7, Data=634716593926347-707957533634721392996946347-1482652206634716282164456347-365698394634717786754286347, PUR=purpose22, SHR=shr7, TTL=22000}
+Key in update key6347
+Values in update{DEC=dec1, USR=user6347, SRC=src7, OBJ=obj47, CAT=cat7, ACL=acl7, Data=634716593926347-707957533634721392996946347-1482652206634716282164456347-365698394634717786754286347, PUR=purpose22, SHR=shr7, TTL=22000}
+["key6649"]
+[]
+[]
+[{"prop": "purpose", "info": "purpose21"}]
+[]
+[{"prop": "purpose", "info": "purpose9"}]
+we in the read
+["key2480"]
+[]
+Update
+{DEC=dec1, USR=user9417, SRC=src7, OBJ=obj17, CAT=cat7, ACL=acl7, Data=941717496339417-297895445941717463081769417-10753318589417-14390429059417223983369417-16137967959417, PUR=purpose17, SHR=shr7, TTL=22000}
+Key in update key9417
+Values in update{DEC=dec1, USR=user9417, SRC=src7, OBJ=obj17, CAT=cat7, ACL=acl7, Data=941717496339417-297895445941717463081769417-10753318589417-14390429059417223983369417-16137967959417, PUR=purpose17, SHR=shr7, TTL=22000}
+Update
+{DEC=dec1, USR=user7875, SRC=src5, OBJ=obj75, CAT=cat5, ACL=acl5, Data=787516940797875-488763667875-1135366150787533675281378754331120787875-5605332447875-12520843187875-2, PUR=purpose0, SHR=shr5, TTL=18000}
+Key in update key7875
+Values in update{DEC=dec1, USR=user7875, SRC=src5, OBJ=obj75, CAT=cat5, ACL=acl5, Data=787516940797875-488763667875-1135366150787533675281378754331120787875-5605332447875-12520843187875-2, PUR=purpose0, SHR=shr5, TTL=18000}
+[]
+[{"prop": "purpose", "info": "purpose12"}]
+["key2074"]
+[]
+["key2590"]
+[]
+we in the read
+Update
+{DEC=dec1, USR=user8597, SRC=src7, OBJ=obj97, CAT=cat7, ACL=acl7, Data=8597172105185971219393383859716589524608597-2016610297859721391193278597-7891119068597-6751017748597, PUR=purpose22, SHR=shr7, TTL=22000}
+Key in update key8597
+Values in update{DEC=dec1, USR=user8597, SRC=src7, OBJ=obj97, CAT=cat7, ACL=acl7, Data=8597172105185971219393383859716589524608597-2016610297859721391193278597-7891119068597-6751017748597, PUR=purpose22, SHR=shr7, TTL=22000}
+we in the read
+Update
+{DEC=dec1, USR=user3737, SRC=src7, OBJ=obj37, CAT=cat7, ACL=acl7, Data=3737157383237376108252393737148775856337374860056693737177366146537374955934773737672834904373761028, PUR=purpose12, SHR=shr7, TTL=22000}
+Key in update key3737
+Values in update{DEC=dec1, USR=user3737, SRC=src7, OBJ=obj37, CAT=cat7, ACL=acl7, Data=3737157383237376108252393737148775856337374860056693737177366146537374955934773737672834904373761028, PUR=purpose12, SHR=shr7, TTL=22000}
+["key5625"]
+[]
+Update
+{DEC=dec0, USR=user2580, SRC=src0, OBJ=obj80, CAT=cat0, ACL=acl0, Data=2580154226725804837683692580-1105737702580-207950884525804741252925801813071902580816612285258021098, PUR=purpose5, SHR=shr0, TTL=30}
+Key in update key2580
+Values in update{DEC=dec0, USR=user2580, SRC=src0, OBJ=obj80, CAT=cat0, ACL=acl0, Data=2580154226725804837683692580-1105737702580-207950884525804741252925801813071902580816612285258021098, PUR=purpose5, SHR=shr0, TTL=30}
+Update
+{DEC=dec1, USR=user9555, SRC=src5, OBJ=obj55, CAT=cat5, ACL=acl5, Data=955517507169555-17150928059555-41784200495555057226119555-2833314869555-728484545955511992477299555-, PUR=purpose5, SHR=shr5, TTL=18000}
+Key in update key9555
+Values in update{DEC=dec1, USR=user9555, SRC=src5, OBJ=obj55, CAT=cat5, ACL=acl5, Data=955517507169555-17150928059555-41784200495555057226119555-2833314869555-728484545955511992477299555-, PUR=purpose5, SHR=shr5, TTL=18000}
+Update
+{DEC=dec0, USR=user5150, SRC=src0, OBJ=obj50, CAT=cat0, ACL=acl0, Data=515016277035150-14663545125150-3750755575150-176508892951501927726234515013722723745150-126007345951, PUR=purpose0, SHR=shr0, TTL=30}
+Key in update key5150
+Values in update{DEC=dec0, USR=user5150, SRC=src0, OBJ=obj50, CAT=cat0, ACL=acl0, Data=515016277035150-14663545125150-3750755575150-176508892951501927726234515013722723745150-126007345951, PUR=purpose0, SHR=shr0, TTL=30}
+we in the read
+Update
+{DEC=dec1, USR=user2871, SRC=src1, OBJ=obj71, CAT=cat1, ACL=acl1, Data=287115451202871-6854401502871-20795461228714910738152871945533492871-2471701712871-2047338102871-203, PUR=purpose21, SHR=shr1, TTL=10000}
+Key in update key2871
+Values in update{DEC=dec1, USR=user2871, SRC=src1, OBJ=obj71, CAT=cat1, ACL=acl1, Data=287115451202871-6854401502871-20795461228714910738152871945533492871-2471701712871-2047338102871-203, PUR=purpose21, SHR=shr1, TTL=10000}
+["key6399"]
+[]
+we in the read
+Update
+{DEC=dec0, USR=user5150, SRC=src0, OBJ=obj50, CAT=cat0, ACL=acl0, Data=515016277035150-14663545125150-3750755575150-176508892951501927726234515013722723745150-126007345951, PUR=purpose0, SHR=shr0, TTL=30}
+Key in update key5150
+Values in update{DEC=dec0, USR=user5150, SRC=src0, OBJ=obj50, CAT=cat0, ACL=acl0, Data=515016277035150-14663545125150-3750755575150-176508892951501927726234515013722723745150-126007345951, PUR=purpose0, SHR=shr0, TTL=30}
+we in the read
+Update
+{DEC=dec0, USR=user6646, SRC=src6, OBJ=obj46, CAT=cat6, ACL=acl6, Data=664616622746646-1238858106646-524732256646-16031532546646-2152995536646-4239202776646-18821526886646, PUR=purpose21, SHR=shr6, TTL=20000}
+Key in update key6646
+Values in update{DEC=dec0, USR=user6646, SRC=src6, OBJ=obj46, CAT=cat6, ACL=acl6, Data=664616622746646-1238858106646-524732256646-16031532546646-2152995536646-4239202776646-18821526886646, PUR=purpose21, SHR=shr6, TTL=20000}
+[]
+[{"prop": "purpose", "info": "purpose13"}]
+[]
+[{"prop": "purpose", "info": "purpose12"}]
+[]
+[{"prop": "purpose", "info": "purpose15"}]
+Update
+{DEC=dec1, USR=user1797, SRC=src7, OBJ=obj97, CAT=cat7, ACL=acl7, Data=1797151443617975814933601797-6729263671797-1018907136179711963587951797111628105179716968556541797-1, PUR=purpose22, SHR=shr7, TTL=22000}
+Key in update key1797
+Values in update{DEC=dec1, USR=user1797, SRC=src7, OBJ=obj97, CAT=cat7, ACL=acl7, Data=1797151443617975814933601797-6729263671797-1018907136179711963587951797111628105179716968556541797-1, PUR=purpose22, SHR=shr7, TTL=22000}
+we in the read
+we in the read
+Update
+{DEC=dec0, USR=user4926, SRC=src6, OBJ=obj26, CAT=cat6, ACL=acl6, Data=49261605513492616091524614926-1593019867492610441897124926-48115683449264619940624926-79643993449261, PUR=purpose1, SHR=shr6, TTL=20000}
+Key in update key4926
+Values in update{DEC=dec0, USR=user4926, SRC=src6, OBJ=obj26, CAT=cat6, ACL=acl6, Data=49261605513492616091524614926-1593019867492610441897124926-48115683449264619940624926-79643993449261, PUR=purpose1, SHR=shr6, TTL=20000}
+Update
+{DEC=dec0, USR=user1508, SRC=src8, OBJ=obj8, CAT=cat8, ACL=acl8, Data=150815122361508-8983098401508-794583138150812288833811508-1146838175150898496442815083989718961508-2, PUR=purpose8, SHR=shr8, TTL=24000}
+Key in update key1508
+Values in update{DEC=dec0, USR=user1508, SRC=src8, OBJ=obj8, CAT=cat8, ACL=acl8, Data=150815122361508-8983098401508-794583138150812288833811508-1146838175150898496442815083989718961508-2, PUR=purpose8, SHR=shr8, TTL=24000}
+we in the read
+Update
+{DEC=dec0, USR=user7934, SRC=src4, OBJ=obj34, CAT=cat4, ACL=acl4, Data=793416949157934-2877752997934956709121793416376594367934-1041965451793417370457757934-17746772167934, PUR=purpose9, SHR=shr4, TTL=16000}
+Key in update key7934
+Values in update{DEC=dec0, USR=user7934, SRC=src4, OBJ=obj34, CAT=cat4, ACL=acl4, Data=793416949157934-2877752997934956709121793416376594367934-1041965451793417370457757934-17746772167934, PUR=purpose9, SHR=shr4, TTL=16000}
+we in the read
+["key9555"]
+[]
+Update
+{DEC=dec0, USR=user6574, SRC=src4, OBJ=obj74, CAT=cat4, ACL=acl4, Data=657416614046574-9249095446574-2150338356574-68907634865742600910906574-19104723956574-64251261365741, PUR=purpose24, SHR=shr4, TTL=16000}
+Key in update key6574
+Values in update{DEC=dec0, USR=user6574, SRC=src4, OBJ=obj74, CAT=cat4, ACL=acl4, Data=657416614046574-9249095446574-2150338356574-68907634865742600910906574-19104723956574-64251261365741, PUR=purpose24, SHR=shr4, TTL=16000}
+we in the read
+Update
+{DEC=dec1, USR=user9791, SRC=src1, OBJ=obj91, CAT=cat1, ACL=acl1, Data=979117527589791-814166601979114222441299791-4171904649791-12750051399791-580581801979182045989697912, PUR=purpose16, SHR=shr1, TTL=10000}
+Key in update key9791
+Values in update{DEC=dec1, USR=user9791, SRC=src1, OBJ=obj91, CAT=cat1, ACL=acl1, Data=979117527589791-814166601979114222441299791-4171904649791-12750051399791-580581801979182045989697912, PUR=purpose16, SHR=shr1, TTL=10000}
+we in the read
+[]
+[{"prop": "purpose", "info": "purpose19"}]
+Update
+{DEC=dec1, USR=user1963, SRC=src3, OBJ=obj63, CAT=cat3, ACL=acl3, Data=1963151626119631726139236196312209108651963-12013660281963-2785696931963-15515741061963-306043887196, PUR=purpose13, SHR=shr3, TTL=14000}
+Key in update key1963
+Values in update{DEC=dec1, USR=user1963, SRC=src3, OBJ=obj63, CAT=cat3, ACL=acl3, Data=1963151626119631726139236196312209108651963-12013660281963-2785696931963-15515741061963-306043887196, PUR=purpose13, SHR=shr3, TTL=14000}
+we in the read
+["key7354"]
+[]
+Update
+{DEC=dec0, USR=user2726, SRC=src6, OBJ=obj26, CAT=cat6, ACL=acl6, Data=272615440092726-7467146352726-1276082162726169672376327262239329862726147975875327261200426858272693, PUR=purpose1, SHR=shr6, TTL=20000}
+Key in update key2726
+Values in update{DEC=dec0, USR=user2726, SRC=src6, OBJ=obj26, CAT=cat6, ACL=acl6, Data=272615440092726-7467146352726-1276082162726169672376327262239329862726147975875327261200426858272693, PUR=purpose1, SHR=shr6, TTL=20000}
+Update
+{DEC=dec0, USR=user8206, SRC=src6, OBJ=obj6, CAT=cat6, ACL=acl6, Data=820617178888206-10654953168206-19657517058206225110742820614863763248206-6569930808206-6899759298206, PUR=purpose6, SHR=shr6, TTL=20000}
+Key in update key8206
+Values in update{DEC=dec0, USR=user8206, SRC=src6, OBJ=obj6, CAT=cat6, ACL=acl6, Data=820617178888206-10654953168206-19657517058206225110742820614863763248206-6569930808206-6899759298206, PUR=purpose6, SHR=shr6, TTL=20000}
+we in the read
+Update
+{DEC=dec0, USR=user3600, SRC=src0, OBJ=obj0, CAT=cat0, ACL=acl0, Data=360015727713600-142370814236001368409463600-2317304203600-980532784360010235151903600-2395228723600-, PUR=purpose0, SHR=shr0, TTL=30}
+Key in update key3600
+Values in update{DEC=dec0, USR=user3600, SRC=src0, OBJ=obj0, CAT=cat0, ACL=acl0, Data=360015727713600-142370814236001368409463600-2317304203600-980532784360010235151903600-2395228723600-, PUR=purpose0, SHR=shr0, TTL=30}
+["key5688"]
+[]
+["key967"]
+[]
+Update
+{DEC=dec0, USR=user3584, SRC=src4, OBJ=obj84, CAT=cat4, ACL=acl4, Data=358415720623584-3993402113584-19310092283584212647660435846939874283584-16739602035841026317253584-1, PUR=purpose9, SHR=shr4, TTL=16000}
+Key in update key3584
+Values in update{DEC=dec0, USR=user3584, SRC=src4, OBJ=obj84, CAT=cat4, ACL=acl4, Data=358415720623584-3993402113584-19310092283584212647660435846939874283584-16739602035841026317253584-1, PUR=purpose9, SHR=shr4, TTL=16000}
+we in the read
+we in the read
+Update
+{DEC=dec0, USR=user1684, SRC=src4, OBJ=obj84, CAT=cat4, ACL=acl4, Data=168415134411684-7255929491684-175193547916841113264962168410137444261684-168746643168415309132961684, PUR=purpose9, SHR=shr4, TTL=16000}
+Key in update key1684
+Values in update{DEC=dec0, USR=user1684, SRC=src4, OBJ=obj84, CAT=cat4, ACL=acl4, Data=168415134411684-7255929491684-175193547916841113264962168410137444261684-168746643168415309132961684, PUR=purpose9, SHR=shr4, TTL=16000}
+[]
+[{"prop": "purpose", "info": "purpose7"}]
+Update
+{DEC=dec1, USR=user3939, SRC=src9, OBJ=obj39, CAT=cat9, ACL=acl9, Data=393915757563939-17780225703939-1843898424393920165725663939223128042393911460499003939-7302315543939, PUR=purpose14, SHR=shr9, TTL=1000000}
+Key in update key3939
+Values in update{DEC=dec1, USR=user3939, SRC=src9, OBJ=obj39, CAT=cat9, ACL=acl9, Data=393915757563939-17780225703939-1843898424393920165725663939223128042393911460499003939-7302315543939, PUR=purpose14, SHR=shr9, TTL=1000000}
+Update
+{DEC=dec0, USR=user9474, SRC=src4, OBJ=obj74, CAT=cat4, ACL=acl4, Data=947417498169474-7250418389474-166032357794748760342389474541333111947412289396339474-21275035779474-, PUR=purpose24, SHR=shr4, TTL=16000}
+Key in update key9474
+Values in update{DEC=dec0, USR=user9474, SRC=src4, OBJ=obj74, CAT=cat4, ACL=acl4, Data=947417498169474-7250418389474-166032357794748760342389474541333111947412289396339474-21275035779474-, PUR=purpose24, SHR=shr4, TTL=16000}
+["key5672"]
+[]
+we in the read
+we in the read
+Update
+{DEC=dec1, USR=user1719, SRC=src9, OBJ=obj19, CAT=cat9, ACL=acl9, Data=171915141901719690605345171963974699517196008943551719-120663247171920657181471719-6722139161719-741, PUR=purpose19, SHR=shr9, TTL=1000000}
+Key in update key1719
+Values in update{DEC=dec1, USR=user1719, SRC=src9, OBJ=obj19, CAT=cat9, ACL=acl9, Data=171915141901719690605345171963974699517196008943551719-120663247171920657181471719-6722139161719-741, PUR=purpose19, SHR=shr9, TTL=1000000}
+we in the read
+["key7314"]
+[]
+Update
+{DEC=dec0, USR=user4900, SRC=src0, OBJ=obj0, CAT=cat0, ACL=acl0, Data=49001605445490062169290749004751204484900-7921468804900-16478470674900-3250269654900-13660788834900-, PUR=purpose0, SHR=shr0, TTL=30}
+Key in update key4900
+Values in update{DEC=dec0, USR=user4900, SRC=src0, OBJ=obj0, CAT=cat0, ACL=acl0, Data=49001605445490062169290749004751204484900-7921468804900-16478470674900-3250269654900-13660788834900-, PUR=purpose0, SHR=shr0, TTL=30}
+Update
+{DEC=dec0, USR=user8218, SRC=src8, OBJ=obj18, CAT=cat8, ACL=acl8, Data=821817179218218-3914687248218-106997601882181537360321821810050657438218-32714394182185845214858218-, PUR=purpose18, SHR=shr8, TTL=24000}
+Key in update key8218
+Values in update{DEC=dec0, USR=user8218, SRC=src8, OBJ=obj18, CAT=cat8, ACL=acl8, Data=821817179218218-3914687248218-106997601882181537360321821810050657438218-32714394182185845214858218-, PUR=purpose18, SHR=shr8, TTL=24000}
+[]
+[{"prop": "purpose", "info": "purpose1"}]
+Update
+{DEC=dec1, USR=user2533, SRC=src3, OBJ=obj33, CAT=cat3, ACL=acl3, Data=25331542115253313055349312533636068382253312129415932533-386590492533-19811922952533-524172292253383, PUR=purpose8, SHR=shr3, TTL=14000}
+Key in update key2533
+Values in update{DEC=dec1, USR=user2533, SRC=src3, OBJ=obj33, CAT=cat3, ACL=acl3, Data=25331542115253313055349312533636068382253312129415932533-386590492533-19811922952533-524172292253383, PUR=purpose8, SHR=shr3, TTL=14000}
+["key4802"]
+[]
+[]
+[{"prop": "purpose", "info": "purpose21"}]
+we in the read
+we in the read
+["key370"]
+[]
+[]
+[{"prop": "purpose", "info": "purpose6"}]
+[]
+[{"prop": "purpose", "info": "purpose11"}]
+Update
+{DEC=dec0, USR=user2544, SRC=src4, OBJ=obj44, CAT=cat4, ACL=acl4, Data=25441542147254412289491702544-16999080562544-1340878752544-1879571124254446622686525446859849352544-, PUR=purpose19, SHR=shr4, TTL=16000}
+Key in update key2544
+Values in update{DEC=dec0, USR=user2544, SRC=src4, OBJ=obj44, CAT=cat4, ACL=acl4, Data=25441542147254412289491702544-16999080562544-1340878752544-1879571124254446622686525446859849352544-, PUR=purpose19, SHR=shr4, TTL=16000}
+we in the read
+Update
+{DEC=dec1, USR=user4393, SRC=src3, OBJ=obj93, CAT=cat3, ACL=acl3, Data=439315999614393108837486443931585769070439355052664743931896489842439321248712164393-2439770734393-4, PUR=purpose18, SHR=shr3, TTL=14000}
+Key in update key4393
+Values in update{DEC=dec1, USR=user4393, SRC=src3, OBJ=obj93, CAT=cat3, ACL=acl3, Data=439315999614393108837486443931585769070439355052664743931896489842439321248712164393-2439770734393-4, PUR=purpose18, SHR=shr3, TTL=14000}
+["key9103"]
+[]
+[]
+[{"prop": "purpose", "info": "purpose11"}]
+Update
+{DEC=dec0, USR=user4788, SRC=src8, OBJ=obj88, CAT=cat8, ACL=acl8, Data=478816037794788-4152819034788150935688047888805001244788204343090147882100298864788-19647527154788-2, PUR=purpose13, SHR=shr8, TTL=24000}
+Key in update key4788
+Values in update{DEC=dec0, USR=user4788, SRC=src8, OBJ=obj88, CAT=cat8, ACL=acl8, Data=478816037794788-4152819034788150935688047888805001244788204343090147882100298864788-19647527154788-2, PUR=purpose13, SHR=shr8, TTL=24000}
+we in the read
+[]
+[{"prop": "purpose", "info": "purpose18"}]
+Update
+{DEC=dec1, USR=user4405, SRC=src5, OBJ=obj5, CAT=cat5, ACL=acl5, Data=44051600645440511508178104405-14093291744058938963114405670870366440514492987444405-5597170774405-60, PUR=purpose5, SHR=shr5, TTL=18000}
+Key in update key4405
+Values in update{DEC=dec1, USR=user4405, SRC=src5, OBJ=obj5, CAT=cat5, ACL=acl5, Data=44051600645440511508178104405-14093291744058938963114405670870366440514492987444405-5597170774405-60, PUR=purpose5, SHR=shr5, TTL=18000}
+Update
+{DEC=dec1, USR=user5615, SRC=src5, OBJ=obj15, CAT=cat5, ACL=acl5, Data=56151632389561511678053285615-8401095505615424068628561514770474735615872826785615-15124148115615126, PUR=purpose15, SHR=shr5, TTL=18000}
+Key in update key5615
+Values in update{DEC=dec1, USR=user5615, SRC=src5, OBJ=obj15, CAT=cat5, ACL=acl5, Data=56151632389561511678053285615-8401095505615424068628561514770474735615872826785615-15124148115615126, PUR=purpose15, SHR=shr5, TTL=18000}
+["key3964"]
+[]
+Update
+{DEC=dec1, USR=user9267, SRC=src7, OBJ=obj67, CAT=cat7, ACL=acl7, Data=9267174786692671919217007926771258392892678675868259267209468277092671206609637926717665889926754823, PUR=purpose17, SHR=shr7, TTL=22000}
+Key in update key9267
+Values in update{DEC=dec1, USR=user9267, SRC=src7, OBJ=obj67, CAT=cat7, ACL=acl7, Data=9267174786692671919217007926771258392892678675868259267209468277092671206609637926717665889926754823, PUR=purpose17, SHR=shr7, TTL=22000}
+[]
+[{"prop": "purpose", "info": "purpose9"}]
+[]
+[{"prop": "purpose", "info": "purpose10"}]
+["key9033"]
+[]
+Update
+{DEC=dec1, USR=user5449, SRC=src9, OBJ=obj49, CAT=cat9, ACL=acl9, Data=544916305645449425533935449-16077946435449757612499544915294530315449-4859949585449-14213721585449-2, PUR=purpose24, SHR=shr9, TTL=1000000}
+Key in update key5449
+Values in update{DEC=dec1, USR=user5449, SRC=src9, OBJ=obj49, CAT=cat9, ACL=acl9, Data=544916305645449425533935449-16077946435449757612499544915294530315449-4859949585449-14213721585449-2, PUR=purpose24, SHR=shr9, TTL=1000000}
+Update
+{DEC=dec0, USR=user470, SRC=src0, OBJ=obj70, CAT=cat0, ACL=acl0, Data=47051725470-19888819884701041875564470-1186058296470-72339250470-61859308947075046146847088894011247, PUR=purpose20, SHR=shr0, TTL=30}
+Key in update key470
+Values in update{DEC=dec0, USR=user470, SRC=src0, OBJ=obj70, CAT=cat0, ACL=acl0, Data=47051725470-19888819884701041875564470-1186058296470-72339250470-61859308947075046146847088894011247, PUR=purpose20, SHR=shr0, TTL=30}
+[]
+[{"prop": "purpose", "info": "purpose6"}]
+["key8933"]
+[]
+["key8734"]
+[]
+[]
+[{"prop": "purpose", "info": "purpose0"}]
+["key2370"]
+[]
+we in the read
+[]
+[{"prop": "purpose", "info": "purpose5"}]
+we in the read
+["key8132"]
+[]
+[]
+[{"prop": "purpose", "info": "purpose15"}]
+we in the read
+[]
+[{"prop": "purpose", "info": "purpose24"}]
+["key3361"]
+[]
+Update
+{DEC=dec1, USR=user189, SRC=src9, OBJ=obj89, CAT=cat9, ACL=acl9, Data=189488821893209650218914564653951896002327351891074985331189-613317720189-1665886941189-916405401891, PUR=purpose14, SHR=shr9, TTL=1000000}
+Key in update key189
+Values in update{DEC=dec1, USR=user189, SRC=src9, OBJ=obj89, CAT=cat9, ACL=acl9, Data=189488821893209650218914564653951896002327351891074985331189-613317720189-1665886941189-916405401891, PUR=purpose14, SHR=shr9, TTL=1000000}
+we in the read
+[]
+[{"prop": "purpose", "info": "purpose6"}]
+["key821"]
+[]
+we in the read
+we in the read
+we in the read
+[]
+[{"prop": "purpose", "info": "purpose11"}]
+Update
+{DEC=dec0, USR=user718, SRC=src8, OBJ=obj18, CAT=cat8, ACL=acl8, Data=71854430718-903020694718695465506718-5965191627184050810277181624311964718-1232564873718107084605571, PUR=purpose18, SHR=shr8, TTL=24000}
+Key in update key718
+Values in update{DEC=dec0, USR=user718, SRC=src8, OBJ=obj18, CAT=cat8, ACL=acl8, Data=71854430718-903020694718695465506718-5965191627184050810277181624311964718-1232564873718107084605571, PUR=purpose18, SHR=shr8, TTL=24000}
+["key6081"]
+[]
+we in the read
+["key7885"]
+[]
+["key299"]
+[]
+["key1649"]
+[]
+we in the read
+Update
+{DEC=dec1, USR=user6673, SRC=src3, OBJ=obj73, CAT=cat3, ACL=acl3, Data=667316623646673-5324683686673-894909102667311158129016673-7930355786673-6365109346673171129749666732, PUR=purpose23, SHR=shr3, TTL=14000}
+Key in update key6673
+Values in update{DEC=dec1, USR=user6673, SRC=src3, OBJ=obj73, CAT=cat3, ACL=acl3, Data=667316623646673-5324683686673-894909102667311158129016673-7930355786673-6365109346673171129749666732, PUR=purpose23, SHR=shr3, TTL=14000}
+["key3883"]
+[]
+[]
+[{"prop": "purpose", "info": "purpose23"}]
+we in the read
+["key9555"]
+[]
+we in the read
+Update
+{DEC=dec0, USR=user4106, SRC=src6, OBJ=obj6, CAT=cat6, ACL=acl6, Data=410615977634106-1314158544106-2131215338410639982892141069818416554106-16135039694106672681916410628, PUR=purpose6, SHR=shr6, TTL=20000}
+Key in update key4106
+Values in update{DEC=dec0, USR=user4106, SRC=src6, OBJ=obj6, CAT=cat6, ACL=acl6, Data=410615977634106-1314158544106-2131215338410639982892141069818416554106-16135039694106672681916410628, PUR=purpose6, SHR=shr6, TTL=20000}
+we in the read
+[]
+[{"prop": "purpose", "info": "purpose10"}]
+we in the read
+[]
+[{"prop": "purpose", "info": "purpose6"}]
+we in the read
+[]
+[{"prop": "purpose", "info": "purpose3"}]
+[]
+[{"prop": "purpose", "info": "purpose16"}]
+[]
+[{"prop": "purpose", "info": "purpose3"}]
+we in the read
+["key3804"]
+[]
+[]
+[{"prop": "purpose", "info": "purpose14"}]
+Update
+{DEC=dec0, USR=user7690, SRC=src0, OBJ=obj90, CAT=cat0, ACL=acl0, Data=7690169221476902137980887769020394185187690111764372976901026013174769049107809176905339311827690164, PUR=purpose15, SHR=shr0, TTL=30}
+Key in update key7690
+Values in update{DEC=dec0, USR=user7690, SRC=src0, OBJ=obj90, CAT=cat0, ACL=acl0, Data=7690169221476902137980887769020394185187690111764372976901026013174769049107809176905339311827690164, PUR=purpose15, SHR=shr0, TTL=30}
+Update
+{DEC=dec1, USR=user5029, SRC=src9, OBJ=obj29, CAT=cat9, ACL=acl9, Data=502916266585029-1401394096502915694372185029-10127491405029145636488450299004870055029-4422654085029, PUR=purpose4, SHR=shr9, TTL=1000000}
+Key in update key5029
+Values in update{DEC=dec1, USR=user5029, SRC=src9, OBJ=obj29, CAT=cat9, ACL=acl9, Data=502916266585029-1401394096502915694372185029-10127491405029145636488450299004870055029-4422654085029, PUR=purpose4, SHR=shr9, TTL=1000000}
+Update
+{DEC=dec0, USR=user1320, SRC=src0, OBJ=obj20, CAT=cat0, ACL=acl0, Data=132015103681320277922578132015752311331320-1005500672132014110341571320-3494475661320-13375945331320, PUR=purpose20, SHR=shr0, TTL=30}
+Key in update key1320
+Values in update{DEC=dec0, USR=user1320, SRC=src0, OBJ=obj20, CAT=cat0, ACL=acl0, Data=132015103681320277922578132015752311331320-1005500672132014110341571320-3494475661320-13375945331320, PUR=purpose20, SHR=shr0, TTL=30}
+["key6582"]
+[]
+Update
+{DEC=dec0, USR=user3864, SRC=src4, OBJ=obj64, CAT=cat4, ACL=acl4, Data=38641574883386472469009838648401262843864-20821433243864-151885115938644419790913864-139335157038641, PUR=purpose14, SHR=shr4, TTL=16000}
+Key in update key3864
+Values in update{DEC=dec0, USR=user3864, SRC=src4, OBJ=obj64, CAT=cat4, ACL=acl4, Data=38641574883386472469009838648401262843864-20821433243864-151885115938644419790913864-139335157038641, PUR=purpose14, SHR=shr4, TTL=16000}
+["key9256"]
+[]
+Update
+{DEC=dec0, USR=user9256, SRC=src6, OBJ=obj56, CAT=cat6, ACL=acl6, Data=92561747834925619958027689256-4315725959256-10735134599256-9325574189256-20640624019256-186159115592, PUR=purpose6, SHR=shr6, TTL=20000}
+Key in update key9256
+Values in update{DEC=dec0, USR=user9256, SRC=src6, OBJ=obj56, CAT=cat6, ACL=acl6, Data=92561747834925619958027689256-4315725959256-10735134599256-9325574189256-20640624019256-186159115592, PUR=purpose6, SHR=shr6, TTL=20000}
+[]
+[{"prop": "purpose", "info": "purpose1"}]
+we in the read
+Update
+{DEC=dec1, USR=user7913, SRC=src3, OBJ=obj13, CAT=cat3, ACL=acl3, Data=791316948527913-6058097077913-157451119679135983272717913188279421379138427941887913-133995288379131, PUR=purpose13, SHR=shr3, TTL=14000}
+Key in update key7913
+Values in update{DEC=dec1, USR=user7913, SRC=src3, OBJ=obj13, CAT=cat3, ACL=acl3, Data=791316948527913-6058097077913-157451119679135983272717913188279421379138427941887913-133995288379131, PUR=purpose13, SHR=shr3, TTL=14000}
+Update
+{DEC=dec0, USR=user7342, SRC=src2, OBJ=obj42, CAT=cat2, ACL=acl2, Data=73421689178734214950571327342-6688181097342424494723734214764498273428151108697342-19712925647342717, PUR=purpose17, SHR=shr2, TTL=12000}
+Key in update key7342
+Values in update{DEC=dec0, USR=user7342, SRC=src2, OBJ=obj42, CAT=cat2, ACL=acl2, Data=73421689178734214950571327342-6688181097342424494723734214764498273428151108697342-19712925647342717, PUR=purpose17, SHR=shr2, TTL=12000}
+Update
+{DEC=dec1, USR=user8587, SRC=src7, OBJ=obj87, CAT=cat7, ACL=acl7, Data=8587172102085871425985385858712398385338587-6120098888587-166097996385871592206814858751505004285871, PUR=purpose12, SHR=shr7, TTL=22000}
+Key in update key8587
+Values in update{DEC=dec1, USR=user8587, SRC=src7, OBJ=obj87, CAT=cat7, ACL=acl7, Data=8587172102085871425985385858712398385338587-6120098888587-166097996385871592206814858751505004285871, PUR=purpose12, SHR=shr7, TTL=22000}
+we in the read
+Update
+{DEC=dec1, USR=user8677, SRC=src7, OBJ=obj77, CAT=cat7, ACL=acl7, Data=8677172195086776973166878677407759048677-213914182286771029751608867712188431438677-14725529548677-9, PUR=purpose2, SHR=shr7, TTL=22000}
+Key in update key8677
+Values in update{DEC=dec1, USR=user8677, SRC=src7, OBJ=obj77, CAT=cat7, ACL=acl7, Data=8677172195086776973166878677407759048677-213914182286771029751608867712188431438677-14725529548677-9, PUR=purpose2, SHR=shr7, TTL=22000}
+[]
+[{"prop": "purpose", "info": "purpose3"}]
+[]
+[{"prop": "purpose", "info": "purpose11"}]
+["key1613"]
+[]
+we in the read
+Update
+{DEC=dec0, USR=user6428, SRC=src8, OBJ=obj28, CAT=cat8, ACL=acl8, Data=642816602926428-1698008500642816019096066428-694767906428-688063419642811225886736428-974271666428-3, PUR=purpose3, SHR=shr8, TTL=24000}
+Key in update key6428
+Values in update{DEC=dec0, USR=user6428, SRC=src8, OBJ=obj28, CAT=cat8, ACL=acl8, Data=642816602926428-1698008500642816019096066428-694767906428-688063419642811225886736428-974271666428-3, PUR=purpose3, SHR=shr8, TTL=24000}
+Update
+{DEC=dec0, USR=user2978, SRC=src8, OBJ=obj78, CAT=cat8, ACL=acl8, Data=2978154608829787470509542978-1222195259297820861903302978-1883035142978-6683919802978-35031598729781, PUR=purpose3, SHR=shr8, TTL=24000}
+Key in update key2978
+Values in update{DEC=dec0, USR=user2978, SRC=src8, OBJ=obj78, CAT=cat8, ACL=acl8, Data=2978154608829787470509542978-1222195259297820861903302978-1883035142978-6683919802978-35031598729781, PUR=purpose3, SHR=shr8, TTL=24000}
+Update
+{DEC=dec0, USR=user7186, SRC=src6, OBJ=obj86, CAT=cat6, ACL=acl6, Data=7186168738471861632131957186539139860718620667540747186-12050619777186142777208271861637011658718625, PUR=purpose11, SHR=shr6, TTL=20000}
+Key in update key7186
+Values in update{DEC=dec0, USR=user7186, SRC=src6, OBJ=obj86, CAT=cat6, ACL=acl6, Data=7186168738471861632131957186539139860718620667540747186-12050619777186142777208271861637011658718625, PUR=purpose11, SHR=shr6, TTL=20000}
+we in the read
+["key292"]
+[]
+we in the read
+Update
+{DEC=dec1, USR=user4711, SRC=src1, OBJ=obj11, CAT=cat1, ACL=acl1, Data=471116035554711-11009998594711-4526750344711-1949537526471110335786754711-9740435654711-763039388471, PUR=purpose11, SHR=shr1, TTL=10000}
+Key in update key4711
+Values in update{DEC=dec1, USR=user4711, SRC=src1, OBJ=obj11, CAT=cat1, ACL=acl1, Data=471116035554711-11009998594711-4526750344711-1949537526471110335786754711-9740435654711-763039388471, PUR=purpose11, SHR=shr1, TTL=10000}
+["key4648"]
+[]
+Update
+{DEC=dec1, USR=user5303, SRC=src3, OBJ=obj3, CAT=cat3, ACL=acl3, Data=5303162947353034003068845303-243724116530377862638530314523202785303-9890634315303-98671544453032704, PUR=purpose3, SHR=shr3, TTL=14000}
+Key in update key5303
+Values in update{DEC=dec1, USR=user5303, SRC=src3, OBJ=obj3, CAT=cat3, ACL=acl3, Data=5303162947353034003068845303-243724116530377862638530314523202785303-9890634315303-98671544453032704, PUR=purpose3, SHR=shr3, TTL=14000}
+Update
+{DEC=dec0, USR=user676, SRC=src6, OBJ=obj76, CAT=cat6, ACL=acl6, Data=67653653676-179351847667617338678776761709906475676-4354158326761647635685676-1616770323676-78283416, PUR=purpose1, SHR=shr6, TTL=20000}
+Key in update key676
+Values in update{DEC=dec0, USR=user676, SRC=src6, OBJ=obj76, CAT=cat6, ACL=acl6, Data=67653653676-179351847667617338678776761709906475676-4354158326761647635685676-1616770323676-78283416, PUR=purpose1, SHR=shr6, TTL=20000}
+Update
+{DEC=dec0, USR=user2624, SRC=src4, OBJ=obj24, CAT=cat4, ACL=acl4, Data=262415430462624-21303867052624-930803477262421433299072624-18058912672624-21115650192624825925612624, PUR=purpose24, SHR=shr4, TTL=16000}
+Key in update key2624
+Values in update{DEC=dec0, USR=user2624, SRC=src4, OBJ=obj24, CAT=cat4, ACL=acl4, Data=262415430462624-21303867052624-930803477262421433299072624-18058912672624-21115650192624825925612624, PUR=purpose24, SHR=shr4, TTL=16000}
+Update
+{DEC=dec1, USR=user9351, SRC=src1, OBJ=obj51, CAT=cat1, ACL=acl1, Data=93511748790935118682189809351211331250793511211968589351-5909240399351-18321015279351-99801871293518, PUR=purpose1, SHR=shr1, TTL=10000}
+Key in update key9351
+Values in update{DEC=dec1, USR=user9351, SRC=src1, OBJ=obj51, CAT=cat1, ACL=acl1, Data=93511748790935118682189809351211331250793511211968589351-5909240399351-18321015279351-99801871293518, PUR=purpose1, SHR=shr1, TTL=10000}
+Update
+{DEC=dec0, USR=user8336, SRC=src6, OBJ=obj36, CAT=cat6, ACL=acl6, Data=8336171894283365899437883368407209078336171793096283366800619158336-10256734378336183205284883361398, PUR=purpose11, SHR=shr6, TTL=20000}
+Key in update key8336
+Values in update{DEC=dec0, USR=user8336, SRC=src6, OBJ=obj36, CAT=cat6, ACL=acl6, Data=8336171894283365899437883368407209078336171793096283366800619158336-10256734378336183205284883361398, PUR=purpose11, SHR=shr6, TTL=20000}
+[]
+[{"prop": "purpose", "info": "purpose23"}]
+Update
+{DEC=dec1, USR=user7539, SRC=src9, OBJ=obj39, CAT=cat9, ACL=acl9, Data=753916910767539-20734621587539-18394131877539-122707846975391416835074753910309249297539-99591785075, PUR=purpose14, SHR=shr9, TTL=1000000}
+Key in update key7539
+Values in update{DEC=dec1, USR=user7539, SRC=src9, OBJ=obj39, CAT=cat9, ACL=acl9, Data=753916910767539-20734621587539-18394131877539-122707846975391416835074753910309249297539-99591785075, PUR=purpose14, SHR=shr9, TTL=1000000}
+we in the read
+Update
+{DEC=dec0, USR=user3584, SRC=src4, OBJ=obj84, CAT=cat4, ACL=acl4, Data=358415720623584-3993402113584-19310092283584212647660435846939874283584-16739602035841026317253584-1, PUR=purpose9, SHR=shr4, TTL=16000}
+Key in update key3584
+Values in update{DEC=dec0, USR=user3584, SRC=src4, OBJ=obj84, CAT=cat4, ACL=acl4, Data=358415720623584-3993402113584-19310092283584212647660435846939874283584-16739602035841026317253584-1, PUR=purpose9, SHR=shr4, TTL=16000}
+Update
+{DEC=dec1, USR=user9489, SRC=src9, OBJ=obj89, CAT=cat9, ACL=acl9, Data=948917498529489-2622086949489-132979677094897982913449489396203083948920404986479489-885818189948911, PUR=purpose14, SHR=shr9, TTL=1000000}
+Key in update key9489
+Values in update{DEC=dec1, USR=user9489, SRC=src9, OBJ=obj89, CAT=cat9, ACL=acl9, Data=948917498529489-2622086949489-132979677094897982913449489396203083948920404986479489-885818189948911, PUR=purpose14, SHR=shr9, TTL=1000000}
+Update
+{DEC=dec0, USR=user6160, SRC=src0, OBJ=obj60, CAT=cat0, ACL=acl0, Data=61601657525616011994932976160-202319368861609063974446160-82299098961602026458216160-9006292046160-2, PUR=purpose10, SHR=shr0, TTL=30}
+Key in update key6160
+Values in update{DEC=dec0, USR=user6160, SRC=src0, OBJ=obj60, CAT=cat0, ACL=acl0, Data=61601657525616011994932976160-202319368861609063974446160-82299098961602026458216160-9006292046160-2, PUR=purpose10, SHR=shr0, TTL=30}
+we in the read
+["key6498"]
+[]
+we in the read
+["key6549"]
+[]
+Update
+{DEC=dec0, USR=user698, SRC=src8, OBJ=obj98, CAT=cat8, ACL=acl8, Data=69853717698-1481432821698-1645208781698-1274599713698-4243600596981101979520698-792329764698-2036368, PUR=purpose23, SHR=shr8, TTL=24000}
+Key in update key698
+Values in update{DEC=dec0, USR=user698, SRC=src8, OBJ=obj98, CAT=cat8, ACL=acl8, Data=69853717698-1481432821698-1645208781698-1274599713698-4243600596981101979520698-792329764698-2036368, PUR=purpose23, SHR=shr8, TTL=24000}
+we in the read
+Update
+{DEC=dec0, USR=user5806, SRC=src6, OBJ=obj6, CAT=cat6, ACL=acl6, Data=580616342815806-11250627795806-1276238783580616230139365806413346185580619976701915806-1717719368580, PUR=purpose6, SHR=shr6, TTL=20000}
+Key in update key5806
+Values in update{DEC=dec0, USR=user5806, SRC=src6, OBJ=obj6, CAT=cat6, ACL=acl6, Data=580616342815806-11250627795806-1276238783580616230139365806413346185580619976701915806-1717719368580, PUR=purpose6, SHR=shr6, TTL=20000}
+Update
+{DEC=dec0, USR=user3330, SRC=src0, OBJ=obj30, CAT=cat0, ACL=acl0, Data=33301569981333021386173553330-410408029333010347622093330-6415136583330-1261584437333046078134633301, PUR=purpose5, SHR=shr0, TTL=30}
+Key in update key3330
+Values in update{DEC=dec0, USR=user3330, SRC=src0, OBJ=obj30, CAT=cat0, ACL=acl0, Data=33301569981333021386173553330-410408029333010347622093330-6415136583330-1261584437333046078134633301, PUR=purpose5, SHR=shr0, TTL=30}
+we in the read
+Update
+{DEC=dec1, USR=user5595, SRC=src5, OBJ=obj95, CAT=cat5, ACL=acl5, Data=559516316765595214440178559512745174415595-7978427675595-9780370655595-14812549495595512398679559516, PUR=purpose20, SHR=shr5, TTL=18000}
+Key in update key5595
+Values in update{DEC=dec1, USR=user5595, SRC=src5, OBJ=obj95, CAT=cat5, ACL=acl5, Data=559516316765595214440178559512745174415595-7978427675595-9780370655595-14812549495595512398679559516, PUR=purpose20, SHR=shr5, TTL=18000}
+Update
+{DEC=dec0, USR=user2978, SRC=src8, OBJ=obj78, CAT=cat8, ACL=acl8, Data=2978154608829787470509542978-1222195259297820861903302978-1883035142978-6683919802978-35031598729781, PUR=purpose3, SHR=shr8, TTL=24000}
+Key in update key2978
+Values in update{DEC=dec0, USR=user2978, SRC=src8, OBJ=obj78, CAT=cat8, ACL=acl8, Data=2978154608829787470509542978-1222195259297820861903302978-1883035142978-6683919802978-35031598729781, PUR=purpose3, SHR=shr8, TTL=24000}
+["key8811"]
+[]
+Update
+{DEC=dec1, USR=user8681, SRC=src1, OBJ=obj81, CAT=cat1, ACL=acl1, Data=868117219758681-308706702868110279953798681-19811612348681-19949200668681-13505948148681173829924286, PUR=purpose6, SHR=shr1, TTL=10000}
+Key in update key8681
+Values in update{DEC=dec1, USR=user8681, SRC=src1, OBJ=obj81, CAT=cat1, ACL=acl1, Data=868117219758681-308706702868110279953798681-19811612348681-19949200668681-13505948148681173829924286, PUR=purpose6, SHR=shr1, TTL=10000}
+we in the read
+[]
+[{"prop": "purpose", "info": "purpose5"}]
+[]
+[{"prop": "purpose", "info": "purpose22"}]
+we in the read
+Update
+{DEC=dec1, USR=user4927, SRC=src7, OBJ=obj27, CAT=cat7, ACL=acl7, Data=49271605514492717391587024927-741455191492771626894349275485894354927-141762712849275844550604927508, PUR=purpose2, SHR=shr7, TTL=22000}
+Key in update key4927
+Values in update{DEC=dec1, USR=user4927, SRC=src7, OBJ=obj27, CAT=cat7, ACL=acl7, Data=49271605514492717391587024927-741455191492771626894349275485894354927-141762712849275844550604927508, PUR=purpose2, SHR=shr7, TTL=22000}
+Update
+{DEC=dec1, USR=user1827, SRC=src7, OBJ=obj27, CAT=cat7, ACL=acl7, Data=18271515180182713476604491827-1438256325182749637536918275257645691827125662350218279701044121827115, PUR=purpose2, SHR=shr7, TTL=22000}
+Key in update key1827
+Values in update{DEC=dec1, USR=user1827, SRC=src7, OBJ=obj27, CAT=cat7, ACL=acl7, Data=18271515180182713476604491827-1438256325182749637536918275257645691827125662350218279701044121827115, PUR=purpose2, SHR=shr7, TTL=22000}
+we in the read
+we in the read
+Update
+{DEC=dec1, USR=user4387, SRC=src7, OBJ=obj87, CAT=cat7, ACL=acl7, Data=43871599934438718149918304387-1929674224387189363922343874405237254387-817675643438715635891094387-1, PUR=purpose12, SHR=shr7, TTL=22000}
+Key in update key4387
+Values in update{DEC=dec1, USR=user4387, SRC=src7, OBJ=obj87, CAT=cat7, ACL=acl7, Data=43871599934438718149918304387-1929674224387189363922343874405237254387-817675643438715635891094387-1, PUR=purpose12, SHR=shr7, TTL=22000}
+we in the read
+we in the read
+we in the read
+["key6716"]
+[]
+we in the read
+[]
+[{"prop": "purpose", "info": "purpose4"}]
+we in the read
+Update
+{DEC=dec1, USR=user3661, SRC=src1, OBJ=obj61, CAT=cat1, ACL=acl1, Data=366115729583661-13308295713661-13914523233661180189434736614971493323661-7262646483661-1907847474366, PUR=purpose11, SHR=shr1, TTL=10000}
+Key in update key3661
+Values in update{DEC=dec1, USR=user3661, SRC=src1, OBJ=obj61, CAT=cat1, ACL=acl1, Data=366115729583661-13308295713661-13914523233661180189434736614971493323661-7262646483661-1907847474366, PUR=purpose11, SHR=shr1, TTL=10000}
+Update
+{DEC=dec1, USR=user3243, SRC=src3, OBJ=obj43, CAT=cat3, ACL=acl3, Data=324315690543243-10376625203243703585735324313626042483243-158076312032435125807543243150276989932431, PUR=purpose18, SHR=shr3, TTL=14000}
+Key in update key3243
+Values in update{DEC=dec1, USR=user3243, SRC=src3, OBJ=obj43, CAT=cat3, ACL=acl3, Data=324315690543243-10376625203243703585735324313626042483243-158076312032435125807543243150276989932431, PUR=purpose18, SHR=shr3, TTL=14000}
+Update
+{DEC=dec1, USR=user763, SRC=src3, OBJ=obj63, CAT=cat3, ACL=acl3, Data=76354580763-1405003590763-196836000763-11805610587631893035307631593700560763-1017346290763103685954, PUR=purpose13, SHR=shr3, TTL=14000}
+Key in update key763
+Values in update{DEC=dec1, USR=user763, SRC=src3, OBJ=obj63, CAT=cat3, ACL=acl3, Data=76354580763-1405003590763-196836000763-11805610587631893035307631593700560763-1017346290763103685954, PUR=purpose13, SHR=shr3, TTL=14000}
+[]
+[{"prop": "purpose", "info": "purpose6"}]
+Update
+{DEC=dec0, USR=user4556, SRC=src6, OBJ=obj56, CAT=cat6, ACL=acl6, Data=4556160176245561992129741455614689460924556-12286232634556-547885235455612797069054556-1657287905455, PUR=purpose6, SHR=shr6, TTL=20000}
+Key in update key4556
+Values in update{DEC=dec0, USR=user4556, SRC=src6, OBJ=obj56, CAT=cat6, ACL=acl6, Data=4556160176245561992129741455614689460924556-12286232634556-547885235455612797069054556-1657287905455, PUR=purpose6, SHR=shr6, TTL=20000}
+Update
+{DEC=dec1, USR=user9941, SRC=src1, OBJ=obj41, CAT=cat1, ACL=acl1, Data=99411754525994112636882439941-17398914799941-1953292589994110207101209941-20689381819941-71331002199, PUR=purpose16, SHR=shr1, TTL=10000}
+Key in update key9941
+Values in update{DEC=dec1, USR=user9941, SRC=src1, OBJ=obj41, CAT=cat1, ACL=acl1, Data=99411754525994112636882439941-17398914799941-1953292589994110207101209941-20689381819941-71331002199, PUR=purpose16, SHR=shr1, TTL=10000}
+Update
+{DEC=dec0, USR=user9104, SRC=src4, OBJ=obj4, CAT=cat4, ACL=acl4, Data=91041746716910410244845969104-136730590191042134815227910414223844669104-12701175149104-428236370910, PUR=purpose4, SHR=shr4, TTL=16000}
+Key in update key9104
+Values in update{DEC=dec0, USR=user9104, SRC=src4, OBJ=obj4, CAT=cat4, ACL=acl4, Data=91041746716910410244845969104-136730590191042134815227910414223844669104-12701175149104-428236370910, PUR=purpose4, SHR=shr4, TTL=16000}
+Update
+{DEC=dec1, USR=user8041, SRC=src1, OBJ=obj41, CAT=cat1, ACL=acl1, Data=804117160858041-21290812468041-9101746078041-8839324488041208730908380411574282620804117610622668041, PUR=purpose16, SHR=shr1, TTL=10000}
+Key in update key8041
+Values in update{DEC=dec1, USR=user8041, SRC=src1, OBJ=obj41, CAT=cat1, ACL=acl1, Data=804117160858041-21290812468041-9101746078041-8839324488041208730908380411574282620804117610622668041, PUR=purpose16, SHR=shr1, TTL=10000}
+Update
+{DEC=dec1, USR=user5563, SRC=src3, OBJ=obj63, CAT=cat3, ACL=acl3, Data=556316315815563-2700846955631402652419556317543226705563-4640620045563103649339855631165229817556317, PUR=purpose13, SHR=shr3, TTL=14000}
+Key in update key5563
+Values in update{DEC=dec1, USR=user5563, SRC=src3, OBJ=obj63, CAT=cat3, ACL=acl3, Data=556316315815563-2700846955631402652419556317543226705563-4640620045563103649339855631165229817556317, PUR=purpose13, SHR=shr3, TTL=14000}
+["key299"]
+[]
+we in the read
+Update
+{DEC=dec1, USR=user299, SRC=src9, OBJ=obj99, CAT=cat9, ACL=acl9, Data=29949874299-1074727628299-15641667872991278876059299517005080299149131644299947503793299111057614299, PUR=purpose24, SHR=shr9, TTL=1000000}
+Key in update key299
+Values in update{DEC=dec1, USR=user299, SRC=src9, OBJ=obj99, CAT=cat9, ACL=acl9, Data=29949874299-1074727628299-15641667872991278876059299517005080299149131644299947503793299111057614299, PUR=purpose24, SHR=shr9, TTL=1000000}
+["key2387"]
+[]
+we in the read
+we in the read
+["key7285"]
+[]
+[]
+[{"prop": "purpose", "info": "purpose15"}]
+Update
+{DEC=dec1, USR=user9337, SRC=src7, OBJ=obj37, CAT=cat7, ACL=acl7, Data=933717487349337-12335268669337-665181159337-7720742659337-167207073893376261781609337-6806366399337-, PUR=purpose12, SHR=shr7, TTL=22000}
+Key in update key9337
+Values in update{DEC=dec1, USR=user9337, SRC=src7, OBJ=obj37, CAT=cat7, ACL=acl7, Data=933717487349337-12335268669337-665181159337-7720742659337-167207073893376261781609337-6806366399337-, PUR=purpose12, SHR=shr7, TTL=22000}
+we in the read
+Update
+{DEC=dec0, USR=user8902, SRC=src2, OBJ=obj2, CAT=cat2, ACL=acl2, Data=890217246118902-12535894908902-2594759148902197487719689021060318346890220388470418902-2050412238902, PUR=purpose2, SHR=shr2, TTL=12000}
+Key in update key8902
+Values in update{DEC=dec0, USR=user8902, SRC=src2, OBJ=obj2, CAT=cat2, ACL=acl2, Data=890217246118902-12535894908902-2594759148902197487719689021060318346890220388470418902-2050412238902, PUR=purpose2, SHR=shr2, TTL=12000}
+["key6270"]
+[]
+["key248"]
+[]
+[]
+[{"prop": "purpose", "info": "purpose5"}]
+["key6822"]
+[]
+["key7252"]
+[]
+we in the read
+we in the read
+we in the read
+we in the read
+["key2763"]
+[]
+[]
+[{"prop": "purpose", "info": "purpose22"}]
+Update
+{DEC=dec0, USR=user6262, SRC=src2, OBJ=obj62, CAT=cat2, ACL=acl2, Data=62621658488626219819531966262-710019172626221298346416262-4001378476262-1776351546262-15854551986262, PUR=purpose12, SHR=shr2, TTL=12000}
+Key in update key6262
+Values in update{DEC=dec0, USR=user6262, SRC=src2, OBJ=obj62, CAT=cat2, ACL=acl2, Data=62621658488626219819531966262-710019172626221298346416262-4001378476262-1776351546262-15854551986262, PUR=purpose12, SHR=shr2, TTL=12000}
+Update
+{DEC=dec0, USR=user9900, SRC=src0, OBJ=obj0, CAT=cat0, ACL=acl0, Data=99001754400990013588378399900-1752966474990012791079229900-1186818890990013834801339900-134755682599, PUR=purpose0, SHR=shr0, TTL=30}
+Key in update key9900
+Values in update{DEC=dec0, USR=user9900, SRC=src0, OBJ=obj0, CAT=cat0, ACL=acl0, Data=99001754400990013588378399900-1752966474990012791079229900-1186818890990013834801339900-134755682599, PUR=purpose0, SHR=shr0, TTL=30}
+Update
+{DEC=dec1, USR=user2507, SRC=src7, OBJ=obj7, CAT=cat7, ACL=acl7, Data=25071542026250718441237302507-401464603250720485569582507160187640025071905942125074102844622507-501, PUR=purpose7, SHR=shr7, TTL=22000}
+Key in update key2507
+Values in update{DEC=dec1, USR=user2507, SRC=src7, OBJ=obj7, CAT=cat7, ACL=acl7, Data=25071542026250718441237302507-401464603250720485569582507160187640025071905942125074102844622507-501, PUR=purpose7, SHR=shr7, TTL=22000}
+Update
+{DEC=dec0, USR=user1682, SRC=src2, OBJ=obj82, CAT=cat2, ACL=acl2, Data=168215134391682-10049993721682120089761616825038699731682-12483318121682-5726266911682-1627931011682, PUR=purpose7, SHR=shr2, TTL=12000}
+Key in update key1682
+Values in update{DEC=dec0, USR=user1682, SRC=src2, OBJ=obj82, CAT=cat2, ACL=acl2, Data=168215134391682-10049993721682120089761616825038699731682-12483318121682-5726266911682-1627931011682, PUR=purpose7, SHR=shr2, TTL=12000}
+Update
+{DEC=dec1, USR=user6841, SRC=src1, OBJ=obj41, CAT=cat1, ACL=acl1, Data=6841166419168418721899906841-7419080866841-1123802276841-135465235684121465096196841-373438061684179, PUR=purpose16, SHR=shr1, TTL=10000}
+Key in update key6841
+Values in update{DEC=dec1, USR=user6841, SRC=src1, OBJ=obj41, CAT=cat1, ACL=acl1, Data=6841166419168418721899906841-7419080866841-1123802276841-135465235684121465096196841-373438061684179, PUR=purpose16, SHR=shr1, TTL=10000}
+[]
+[{"prop": "purpose", "info": "purpose11"}]
+Update
+{DEC=dec1, USR=user279, SRC=src9, OBJ=obj79, CAT=cat9, ACL=acl9, Data=27949812279-68730138827915547022972791657406433279-994011054279-1990632772279-1902024793279-13376609, PUR=purpose4, SHR=shr9, TTL=1000000}
+Key in update key279
+Values in update{DEC=dec1, USR=user279, SRC=src9, OBJ=obj79, CAT=cat9, ACL=acl9, Data=27949812279-68730138827915547022972791657406433279-994011054279-1990632772279-1902024793279-13376609, PUR=purpose4, SHR=shr9, TTL=1000000}
+Update
+{DEC=dec0, USR=user6568, SRC=src8, OBJ=obj68, CAT=cat8, ACL=acl8, Data=656816613776568-7995047496568-8762058876568-143960930065681095189087656813149720656810815740106568-8, PUR=purpose18, SHR=shr8, TTL=24000}
+Key in update key6568
+Values in update{DEC=dec0, USR=user6568, SRC=src8, OBJ=obj68, CAT=cat8, ACL=acl8, Data=656816613776568-7995047496568-8762058876568-143960930065681095189087656813149720656810815740106568-8, PUR=purpose18, SHR=shr8, TTL=24000}
+["key3980"]
+[]
+Update
+{DEC=dec0, USR=user522, SRC=src2, OBJ=obj22, CAT=cat2, ACL=acl2, Data=52252533522-1292097326522652858231522-2179116125221830650856522-1673544415522-5833542995225161836295, PUR=purpose22, SHR=shr2, TTL=12000}
+Key in update key522
+Values in update{DEC=dec0, USR=user522, SRC=src2, OBJ=obj22, CAT=cat2, ACL=acl2, Data=52252533522-1292097326522652858231522-2179116125221830650856522-1673544415522-5833542995225161836295, PUR=purpose22, SHR=shr2, TTL=12000}
+Update
+{DEC=dec0, USR=user4958, SRC=src8, OBJ=obj58, CAT=cat8, ACL=acl8, Data=4958160560849581850601108495817705525444958-3129869664958-4889093174958-1953621087495819826472844958, PUR=purpose8, SHR=shr8, TTL=24000}
+Key in update key4958
+Values in update{DEC=dec0, USR=user4958, SRC=src8, OBJ=obj58, CAT=cat8, ACL=acl8, Data=4958160560849581850601108495817705525444958-3129869664958-4889093174958-1953621087495819826472844958, PUR=purpose8, SHR=shr8, TTL=24000}
+we in the read
+Update
+{DEC=dec1, USR=user8725, SRC=src5, OBJ=obj25, CAT=cat5, ACL=acl5, Data=87251722754872513721055208725-729435668872515825525138725-661908506872513006367748725-14757620118725, PUR=purpose0, SHR=shr5, TTL=18000}
+Key in update key8725
+Values in update{DEC=dec1, USR=user8725, SRC=src5, OBJ=obj25, CAT=cat5, ACL=acl5, Data=87251722754872513721055208725-729435668872515825525138725-661908506872513006367748725-14757620118725, PUR=purpose0, SHR=shr5, TTL=18000}
+we in the read
+we in the read
+Update
+{DEC=dec0, USR=user9120, SRC=src0, OBJ=obj20, CAT=cat0, ACL=acl0, Data=912017467749120912756289120-1901142458912091726254912013833916989120-11611452339120-1596552721912012, PUR=purpose20, SHR=shr0, TTL=30}
+Key in update key9120
+Values in update{DEC=dec0, USR=user9120, SRC=src0, OBJ=obj20, CAT=cat0, ACL=acl0, Data=912017467749120912756289120-1901142458912091726254912013833916989120-11611452339120-1596552721912012, PUR=purpose20, SHR=shr0, TTL=30}
+Update
+{DEC=dec1, USR=user8667, SRC=src7, OBJ=obj67, CAT=cat7, ACL=acl7, Data=8667172191986678845147488667-12283638788667-1063715086679629662998667-1648843668667-19063027028667-1, PUR=purpose17, SHR=shr7, TTL=22000}
+Key in update key8667
+Values in update{DEC=dec1, USR=user8667, SRC=src7, OBJ=obj67, CAT=cat7, ACL=acl7, Data=8667172191986678845147488667-12283638788667-1063715086679629662998667-1648843668667-19063027028667-1, PUR=purpose17, SHR=shr7, TTL=22000}
+we in the read
+Update
+{DEC=dec1, USR=user9857, SRC=src7, OBJ=obj57, CAT=cat7, ACL=acl7, Data=98571753601985713340802119857-203975155198577566595999857-18940096279857-12674846599857-144041009998, PUR=purpose7, SHR=shr7, TTL=22000}
+Key in update key9857
+Values in update{DEC=dec1, USR=user9857, SRC=src7, OBJ=obj57, CAT=cat7, ACL=acl7, Data=98571753601985713340802119857-203975155198577566595999857-18940096279857-12674846599857-144041009998, PUR=purpose7, SHR=shr7, TTL=22000}
+Update
+{DEC=dec1, USR=user3863, SRC=src3, OBJ=obj63, CAT=cat3, ACL=acl3, Data=3863157488238635946838573863-15440100383863-2358070253863-16468238603863-153714342138631506137719386, PUR=purpose13, SHR=shr3, TTL=14000}
+Key in update key3863
+Values in update{DEC=dec1, USR=user3863, SRC=src3, OBJ=obj63, CAT=cat3, ACL=acl3, Data=3863157488238635946838573863-15440100383863-2358070253863-16468238603863-153714342138631506137719386, PUR=purpose13, SHR=shr3, TTL=14000}
+Update
+{DEC=dec1, USR=user6919, SRC=src9, OBJ=obj19, CAT=cat9, ACL=acl9, Data=691916650676919-12405039556919-12185720876919-945198186691910020578696919219058562691975321401769191, PUR=purpose19, SHR=shr9, TTL=1000000}
+Key in update key6919
+Values in update{DEC=dec1, USR=user6919, SRC=src9, OBJ=obj19, CAT=cat9, ACL=acl9, Data=691916650676919-12405039556919-12185720876919-945198186691910020578696919219058562691975321401769191, PUR=purpose19, SHR=shr9, TTL=1000000}
+[]
+[{"prop": "purpose", "info": "purpose21"}]
+Update
+{DEC=dec1, USR=user8849, SRC=src9, OBJ=obj49, CAT=cat9, ACL=acl9, Data=884917237818849-16729672878849-744191368849-12881489858849-20894029958849-11826141738849-12877739238, PUR=purpose24, SHR=shr9, TTL=1000000}
+Key in update key8849
+Values in update{DEC=dec1, USR=user8849, SRC=src9, OBJ=obj49, CAT=cat9, ACL=acl9, Data=884917237818849-16729672878849-744191368849-12881489858849-20894029958849-11826141738849-12877739238, PUR=purpose24, SHR=shr9, TTL=1000000}
+[]
+[{"prop": "purpose", "info": "purpose24"}]
+we in the read
+[]
+[{"prop": "purpose", "info": "purpose7"}]
+["key4744"]
+[]
+Update
+{DEC=dec0, USR=user3858, SRC=src8, OBJ=obj58, CAT=cat8, ACL=acl8, Data=3858157485638581451307064385890662003385818726996673858203001439838582687637123858371834563858104789, PUR=purpose8, SHR=shr8, TTL=24000}
+Key in update key3858
+Values in update{DEC=dec0, USR=user3858, SRC=src8, OBJ=obj58, CAT=cat8, ACL=acl8, Data=3858157485638581451307064385890662003385818726996673858203001439838582687637123858371834563858104789, PUR=purpose8, SHR=shr8, TTL=24000}
+[]
+[{"prop": "purpose", "info": "purpose2"}]
+we in the read
+Update
+{DEC=dec1, USR=user9093, SRC=src3, OBJ=obj93, CAT=cat3, ACL=acl3, Data=9093174603390931192229320909399167316290934325917639093-8138603289093-207614531590931751824291909310, PUR=purpose18, SHR=shr3, TTL=14000}
+Key in update key9093
+Values in update{DEC=dec1, USR=user9093, SRC=src3, OBJ=obj93, CAT=cat3, ACL=acl3, Data=9093174603390931192229320909399167316290934325917639093-8138603289093-207614531590931751824291909310, PUR=purpose18, SHR=shr3, TTL=14000}
+we in the read
+Update
+{DEC=dec0, USR=user9886, SRC=src6, OBJ=obj86, CAT=cat6, ACL=acl6, Data=9886175369398865842979649886-4439395759886-158146928098861491164634988621266702029886-20151934419886, PUR=purpose11, SHR=shr6, TTL=20000}
+Key in update key9886
+Values in update{DEC=dec0, USR=user9886, SRC=src6, OBJ=obj86, CAT=cat6, ACL=acl6, Data=9886175369398865842979649886-4439395759886-158146928098861491164634988621266702029886-20151934419886, PUR=purpose11, SHR=shr6, TTL=20000}
+Update
+{DEC=dec0, USR=user1976, SRC=src6, OBJ=obj76, CAT=cat6, ACL=acl6, Data=1976151629519761909565957197614234706281976-3790256341976157080228919761677890350197616089339131976-, PUR=purpose1, SHR=shr6, TTL=20000}
+Key in update key1976
+Values in update{DEC=dec0, USR=user1976, SRC=src6, OBJ=obj76, CAT=cat6, ACL=acl6, Data=1976151629519761909565957197614234706281976-3790256341976157080228919761677890350197616089339131976-, PUR=purpose1, SHR=shr6, TTL=20000}
+[]
+[{"prop": "purpose", "info": "purpose5"}]
+Update
+{DEC=dec0, USR=user3326, SRC=src6, OBJ=obj26, CAT=cat6, ACL=acl6, Data=332615699563326-1169720493332612336876743326207586492533269950115533269472071703326-1438510257332618, PUR=purpose1, SHR=shr6, TTL=20000}
+Key in update key3326
+Values in update{DEC=dec0, USR=user3326, SRC=src6, OBJ=obj26, CAT=cat6, ACL=acl6, Data=332615699563326-1169720493332612336876743326207586492533269950115533269472071703326-1438510257332618, PUR=purpose1, SHR=shr6, TTL=20000}
+[]
+[{"prop": "purpose", "info": "purpose22"}]
+[]
+[{"prop": "purpose", "info": "purpose5"}]
+["key9780"]
+[]
+Update
+{DEC=dec1, USR=user779, SRC=src9, OBJ=obj79, CAT=cat9, ACL=acl9, Data=7795461777946103109377915506657317791733575191779-197016159477960473338977977280975779-9874782117793, PUR=purpose4, SHR=shr9, TTL=1000000}
+Key in update key779
+Values in update{DEC=dec1, USR=user779, SRC=src9, OBJ=obj79, CAT=cat9, ACL=acl9, Data=7795461777946103109377915506657317791733575191779-197016159477960473338977977280975779-9874782117793, PUR=purpose4, SHR=shr9, TTL=1000000}
+Update
+{DEC=dec1, USR=user6215, SRC=src5, OBJ=obj15, CAT=cat5, ACL=acl5, Data=621516583366215-149124753862151448515836215-171618366662151540075284621514838114446215-9100194426215, PUR=purpose15, SHR=shr5, TTL=18000}
+Key in update key6215
+Values in update{DEC=dec1, USR=user6215, SRC=src5, OBJ=obj15, CAT=cat5, ACL=acl5, Data=621516583366215-149124753862151448515836215-171618366662151540075284621514838114446215-9100194426215, PUR=purpose15, SHR=shr5, TTL=18000}
+Update
+{DEC=dec0, USR=user7750, SRC=src0, OBJ=obj50, CAT=cat0, ACL=acl0, Data=775016930517750-14093831557750-13457708707750-5647460467750-4859903407750-11364213827750896198517750, PUR=purpose0, SHR=shr0, TTL=30}
+Key in update key7750
+Values in update{DEC=dec0, USR=user7750, SRC=src0, OBJ=obj50, CAT=cat0, ACL=acl0, Data=775016930517750-14093831557750-13457708707750-5647460467750-4859903407750-11364213827750896198517750, PUR=purpose0, SHR=shr0, TTL=30}
+Update
+{DEC=dec0, USR=user7922, SRC=src2, OBJ=obj22, CAT=cat2, ACL=acl2, Data=792216948827922-942407950792235062213579221425581987922-4739628617922227210467922-181665991679221436, PUR=purpose22, SHR=shr2, TTL=12000}
+Key in update key7922
+Values in update{DEC=dec0, USR=user7922, SRC=src2, OBJ=obj22, CAT=cat2, ACL=acl2, Data=792216948827922-942407950792235062213579221425581987922-4739628617922227210467922-181665991679221436, PUR=purpose22, SHR=shr2, TTL=12000}
+["key516"]
+[]
+["key2096"]
+[]
+we in the read
+Update
+{DEC=dec0, USR=user4272, SRC=src2, OBJ=obj72, CAT=cat2, ACL=acl2, Data=4272159893742722284990984272351653042723203370424272-6204925614272-132335713442721885446604272753632, PUR=purpose22, SHR=shr2, TTL=12000}
+Key in update key4272
+Values in update{DEC=dec0, USR=user4272, SRC=src2, OBJ=obj72, CAT=cat2, ACL=acl2, Data=4272159893742722284990984272351653042723203370424272-6204925614272-132335713442721885446604272753632, PUR=purpose22, SHR=shr2, TTL=12000}
+we in the read
+we in the read
+Update
+{DEC=dec0, USR=user5922, SRC=src2, OBJ=obj22, CAT=cat2, ACL=acl2, Data=592216353005922-3333999885922-1227835565922-4474177525922-13778056485922-152961843259226575553465922, PUR=purpose22, SHR=shr2, TTL=12000}
+Key in update key5922
+Values in update{DEC=dec0, USR=user5922, SRC=src2, OBJ=obj22, CAT=cat2, ACL=acl2, Data=592216353005922-3333999885922-1227835565922-4474177525922-13778056485922-152961843259226575553465922, PUR=purpose22, SHR=shr2, TTL=12000}
+[]
+[{"prop": "purpose", "info": "purpose17"}]
+Update
+{DEC=dec0, USR=user1882, SRC=src2, OBJ=obj82, CAT=cat2, ACL=acl2, Data=1882151536118826605015741882-20155765718822131031887188213648344221882176080856218825984785001882735, PUR=purpose7, SHR=shr2, TTL=12000}
+Key in update key1882
+Values in update{DEC=dec0, USR=user1882, SRC=src2, OBJ=obj82, CAT=cat2, ACL=acl2, Data=1882151536118826605015741882-20155765718822131031887188213648344221882176080856218825984785001882735, PUR=purpose7, SHR=shr2, TTL=12000}
+we in the read
+["key2167"]
+[]
+[]
+[{"prop": "purpose", "info": "purpose22"}]
+["key4626"]
+[]
+[]
+[{"prop": "purpose", "info": "purpose7"}]
+["key1960"]
+[]
+we in the read
+Update
+{DEC=dec1, USR=user3555, SRC=src5, OBJ=obj55, CAT=cat5, ACL=acl5, Data=355515719703555-17084782523555-8127470373555-29724504535555502024143555-13711876413555-1482206969355, PUR=purpose5, SHR=shr5, TTL=18000}
+Key in update key3555
+Values in update{DEC=dec1, USR=user3555, SRC=src5, OBJ=obj55, CAT=cat5, ACL=acl5, Data=355515719703555-17084782523555-8127470373555-29724504535555502024143555-13711876413555-1482206969355, PUR=purpose5, SHR=shr5, TTL=18000}
+Update
+{DEC=dec0, USR=user3630, SRC=src0, OBJ=obj30, CAT=cat0, ACL=acl0, Data=363015728643630-14422719773630-1782052252363019752615793630-1171944693630727934480363024243718236301, PUR=purpose5, SHR=shr0, TTL=30}
+Key in update key3630
+Values in update{DEC=dec0, USR=user3630, SRC=src0, OBJ=obj30, CAT=cat0, ACL=acl0, Data=363015728643630-14422719773630-1782052252363019752615793630-1171944693630727934480363024243718236301, PUR=purpose5, SHR=shr0, TTL=30}
+we in the read
+["key3684"]
+[]
+we in the read
+we in the read
+Update
+{DEC=dec1, USR=user3241, SRC=src1, OBJ=obj41, CAT=cat1, ACL=acl1, Data=324115690523241-12976750023241-2651883203241143959168324159981133032412352849033241-17925971293241-7, PUR=purpose16, SHR=shr1, TTL=10000}
+Key in update key3241
+Values in update{DEC=dec1, USR=user3241, SRC=src1, OBJ=obj41, CAT=cat1, ACL=acl1, Data=324115690523241-12976750023241-2651883203241143959168324159981133032412352849033241-17925971293241-7, PUR=purpose16, SHR=shr1, TTL=10000}
+["key2415"]
+[]
+we in the read
+we in the read
+we in the read
+we in the read
+Update
+{DEC=dec1, USR=user3495, SRC=src5, OBJ=obj95, CAT=cat5, ACL=acl5, Data=349515711333495-9983733893495-17655943043495-6962610023495-636413346349599778439034955381695413495-8, PUR=purpose20, SHR=shr5, TTL=18000}
+Key in update key3495
+Values in update{DEC=dec1, USR=user3495, SRC=src5, OBJ=obj95, CAT=cat5, ACL=acl5, Data=349515711333495-9983733893495-17655943043495-6962610023495-636413346349599778439034955381695413495-8, PUR=purpose20, SHR=shr5, TTL=18000}
+Update
+{DEC=dec1, USR=user2553, SRC=src3, OBJ=obj53, CAT=cat3, ACL=acl3, Data=2553154217725538923509272553-11182647812553-12485684462553-1039378160255316130246022553-153997304825, PUR=purpose3, SHR=shr3, TTL=14000}
+Key in update key2553
+Values in update{DEC=dec1, USR=user2553, SRC=src3, OBJ=obj53, CAT=cat3, ACL=acl3, Data=2553154217725538923509272553-11182647812553-12485684462553-1039378160255316130246022553-153997304825, PUR=purpose3, SHR=shr3, TTL=14000}
+we in the read
+[]
+[{"prop": "purpose", "info": "purpose5"}]
+Update
+{DEC=dec0, USR=user7082, SRC=src2, OBJ=obj82, CAT=cat2, ACL=acl2, Data=708216864197082-8986531277082206984319270829649285757082-16320950097082-1072563854708211787124297082, PUR=purpose7, SHR=shr2, TTL=12000}
+Key in update key7082
+Values in update{DEC=dec0, USR=user7082, SRC=src2, OBJ=obj82, CAT=cat2, ACL=acl2, Data=708216864197082-8986531277082206984319270829649285757082-16320950097082-1072563854708211787124297082, PUR=purpose7, SHR=shr2, TTL=12000}
+we in the read
+we in the read
+["key6128"]
+[]
+Update
+{DEC=dec0, USR=user332, SRC=src2, OBJ=obj32, CAT=cat2, ACL=acl2, Data=33250642332359805515332-3307985503328375047533286707873233212665372163329954526733268466016233272701, PUR=purpose7, SHR=shr2, TTL=12000}
+Key in update key332
+Values in update{DEC=dec0, USR=user332, SRC=src2, OBJ=obj32, CAT=cat2, ACL=acl2, Data=33250642332359805515332-3307985503328375047533286707873233212665372163329954526733268466016233272701, PUR=purpose7, SHR=shr2, TTL=12000}
+we in the read
+we in the read
+Update
+{DEC=dec1, USR=user3113, SRC=src3, OBJ=obj13, CAT=cat3, ACL=acl3, Data=311315680003113-154154610231137817254723113-115497065131131311954215311316561035273113-8125647493113, PUR=purpose13, SHR=shr3, TTL=14000}
+Key in update key3113
+Values in update{DEC=dec1, USR=user3113, SRC=src3, OBJ=obj13, CAT=cat3, ACL=acl3, Data=311315680003113-154154610231137817254723113-115497065131131311954215311316561035273113-8125647493113, PUR=purpose13, SHR=shr3, TTL=14000}
+we in the read
+we in the read
+["key5672"]
+[]
+[]
+[{"prop": "purpose", "info": "purpose14"}]
+[]
+[{"prop": "purpose", "info": "purpose3"}]
+Update
+{DEC=dec1, USR=user7753, SRC=src3, OBJ=obj53, CAT=cat3, ACL=acl3, Data=775316930547753-10193644327753-54604242877532549729207753-2705994307753-2061201902775336381650677539, PUR=purpose3, SHR=shr3, TTL=14000}
+Key in update key7753
+Values in update{DEC=dec1, USR=user7753, SRC=src3, OBJ=obj53, CAT=cat3, ACL=acl3, Data=775316930547753-10193644327753-54604242877532549729207753-2705994307753-2061201902775336381650677539, PUR=purpose3, SHR=shr3, TTL=14000}
+[]
+[{"prop": "purpose", "info": "purpose2"}]
+Update
+{DEC=dec0, USR=user72, SRC=src2, OBJ=obj72, CAT=cat2, ACL=acl2, Data=72175572-4891462872184938084872104133424872-82640204772-147739621672-4231679267230794338472218896564, PUR=purpose22, SHR=shr2, TTL=12000}
+Key in update key72
+Values in update{DEC=dec0, USR=user72, SRC=src2, OBJ=obj72, CAT=cat2, ACL=acl2, Data=72175572-4891462872184938084872104133424872-82640204772-147739621672-4231679267230794338472218896564, PUR=purpose22, SHR=shr2, TTL=12000}
+we in the read
+Update
+{DEC=dec1, USR=user8805, SRC=src5, OBJ=obj5, CAT=cat5, ACL=acl5, Data=880517236538805-198723035588051450332016880549587525488051736567386880515060390758805135481863488051, PUR=purpose5, SHR=shr5, TTL=18000}
+Key in update key8805
+Values in update{DEC=dec1, USR=user8805, SRC=src5, OBJ=obj5, CAT=cat5, ACL=acl5, Data=880517236538805-198723035588051450332016880549587525488051736567386880515060390758805135481863488051, PUR=purpose5, SHR=shr5, TTL=18000}
+Update
+{DEC=dec1, USR=user7391, SRC=src1, OBJ=obj91, CAT=cat1, ACL=acl1, Data=73911689332739115539091647391-6758221297391-12947858467391897969689739157623482873915799562317391-14, PUR=purpose16, SHR=shr1, TTL=10000}
+Key in update key7391
+Values in update{DEC=dec1, USR=user7391, SRC=src1, OBJ=obj91, CAT=cat1, ACL=acl1, Data=73911689332739115539091647391-6758221297391-12947858467391897969689739157623482873915799562317391-14, PUR=purpose16, SHR=shr1, TTL=10000}
+Update
+{DEC=dec1, USR=user4927, SRC=src7, OBJ=obj27, CAT=cat7, ACL=acl7, Data=49271605514492717391587024927-741455191492771626894349275485894354927-141762712849275844550604927508, PUR=purpose2, SHR=shr7, TTL=22000}
+Key in update key4927
+Values in update{DEC=dec1, USR=user4927, SRC=src7, OBJ=obj27, CAT=cat7, ACL=acl7, Data=49271605514492717391587024927-741455191492771626894349275485894354927-141762712849275844550604927508, PUR=purpose2, SHR=shr7, TTL=22000}
+we in the read
+Update
+{DEC=dec1, USR=user1489, SRC=src9, OBJ=obj89, CAT=cat9, ACL=acl9, Data=148915115241489-172166874914897215629191489768680099148911949067481489722774519148915226241411489592, PUR=purpose14, SHR=shr9, TTL=1000000}
+Key in update key1489
+Values in update{DEC=dec1, USR=user1489, SRC=src9, OBJ=obj89, CAT=cat9, ACL=acl9, Data=148915115241489-172166874914897215629191489768680099148911949067481489722774519148915226241411489592, PUR=purpose14, SHR=shr9, TTL=1000000}
+["key7522"]
+[]
+we in the read
+Update
+{DEC=dec0, USR=user9904, SRC=src4, OBJ=obj4, CAT=cat4, ACL=acl4, Data=99041754404990418788628039904-15283588429904-372621483990412315826129904-18418929299904-118464853999, PUR=purpose4, SHR=shr4, TTL=16000}
+Key in update key9904
+Values in update{DEC=dec0, USR=user9904, SRC=src4, OBJ=obj4, CAT=cat4, ACL=acl4, Data=99041754404990418788628039904-15283588429904-372621483990412315826129904-18418929299904-118464853999, PUR=purpose4, SHR=shr4, TTL=16000}
+we in the read
+we in the read
+Update
+{DEC=dec1, USR=user6745, SRC=src5, OBJ=obj45, CAT=cat5, ACL=acl5, Data=6745166323467458697675376745-1771677939674514909946356745-376475381674517548189886745-52255182767451, PUR=purpose20, SHR=shr5, TTL=18000}
+Key in update key6745
+Values in update{DEC=dec1, USR=user6745, SRC=src5, OBJ=obj45, CAT=cat5, ACL=acl5, Data=6745166323467458697675376745-1771677939674514909946356745-376475381674517548189886745-52255182767451, PUR=purpose20, SHR=shr5, TTL=18000}
+[]
+[{"prop": "purpose", "info": "purpose19"}]
+we in the read
+["key4927"]
+[]
+[]
+[{"prop": "purpose", "info": "purpose2"}]
+["key8275"]
+[]
+[]
+[{"prop": "purpose", "info": "purpose4"}]
+we in the read
+we in the read
+we in the read
+we in the read
+Update
+{DEC=dec1, USR=user4003, SRC=src3, OBJ=obj3, CAT=cat3, ACL=acl3, Data=400315967994003-166448810640031514482812400313218573894003751303975400313219891644003-70154643140034, PUR=purpose3, SHR=shr3, TTL=14000}
+Key in update key4003
+Values in update{DEC=dec1, USR=user4003, SRC=src3, OBJ=obj3, CAT=cat3, ACL=acl3, Data=400315967994003-166448810640031514482812400313218573894003751303975400313219891644003-70154643140034, PUR=purpose3, SHR=shr3, TTL=14000}
+Update
+{DEC=dec0, USR=user5902, SRC=src2, OBJ=obj2, CAT=cat2, ACL=acl2, Data=590216352385902-54082209659021086811675902-7391027015902227307059021810593189590221107416525902-1635, PUR=purpose2, SHR=shr2, TTL=12000}
+Key in update key5902
+Values in update{DEC=dec0, USR=user5902, SRC=src2, OBJ=obj2, CAT=cat2, ACL=acl2, Data=590216352385902-54082209659021086811675902-7391027015902227307059021810593189590221107416525902-1635, PUR=purpose2, SHR=shr2, TTL=12000}
+Update
+{DEC=dec0, USR=user8536, SRC=src6, OBJ=obj36, CAT=cat6, ACL=acl6, Data=853617208648536-3505872468536-17651347338536455934116853611451213568536-13095775518536-4585962858536, PUR=purpose11, SHR=shr6, TTL=20000}
+Key in update key8536
+Values in update{DEC=dec0, USR=user8536, SRC=src6, OBJ=obj36, CAT=cat6, ACL=acl6, Data=853617208648536-3505872468536-17651347338536455934116853611451213568536-13095775518536-4585962858536, PUR=purpose11, SHR=shr6, TTL=20000}
+Update
+{DEC=dec0, USR=user9760, SRC=src0, OBJ=obj60, CAT=cat0, ACL=acl0, Data=976017526649760-92560900797605080483049760-12331739769760-1157684983976010704626889760-8413370349760, PUR=purpose10, SHR=shr0, TTL=30}
+Key in update key9760
+Values in update{DEC=dec0, USR=user9760, SRC=src0, OBJ=obj60, CAT=cat0, ACL=acl0, Data=976017526649760-92560900797605080483049760-12331739769760-1157684983976010704626889760-8413370349760, PUR=purpose10, SHR=shr0, TTL=30}
+we in the read
+Update
+{DEC=dec0, USR=user3580, SRC=src0, OBJ=obj80, CAT=cat0, ACL=acl0, Data=358015720583580-9387591163580-1272367238358019622182843580190846070335801971438389358012104244603580, PUR=purpose5, SHR=shr0, TTL=30}
+Key in update key3580
+Values in update{DEC=dec0, USR=user3580, SRC=src0, OBJ=obj80, CAT=cat0, ACL=acl0, Data=358015720583580-9387591163580-1272367238358019622182843580190846070335801971438389358012104244603580, PUR=purpose5, SHR=shr0, TTL=30}
+[]
+[{"prop": "purpose", "info": "purpose6"}]
+["key452"]
+[]
+we in the read
+we in the read
+we in the read
+we in the read
+["key8727"]
+[]
+we in the read
+["key1762"]
+[]
+Update
+{DEC=dec1, USR=user5471, SRC=src1, OBJ=obj71, CAT=cat1, ACL=acl1, Data=547116306495471-10354543115471-2082763826547117016258805471-7632722415471636750833547161630323954711, PUR=purpose21, SHR=shr1, TTL=10000}
+Key in update key5471
+Values in update{DEC=dec1, USR=user5471, SRC=src1, OBJ=obj71, CAT=cat1, ACL=acl1, Data=547116306495471-10354543115471-2082763826547117016258805471-7632722415471636750833547161630323954711, PUR=purpose21, SHR=shr1, TTL=10000}
+[]
+[{"prop": "purpose", "info": "purpose24"}]
+["key301"]
+[]
+Update
+{DEC=dec0, USR=user7074, SRC=src4, OBJ=obj74, CAT=cat4, ACL=acl4, Data=707416863907074-10138668737074-1268168077074-14955478477074-688506767074-140656467770741283645044707, PUR=purpose24, SHR=shr4, TTL=16000}
+Key in update key7074
+Values in update{DEC=dec0, USR=user7074, SRC=src4, OBJ=obj74, CAT=cat4, ACL=acl4, Data=707416863907074-10138668737074-1268168077074-14955478477074-688506767074-140656467770741283645044707, PUR=purpose24, SHR=shr4, TTL=16000}
+Update
+{DEC=dec1, USR=user8785, SRC=src5, OBJ=obj85, CAT=cat5, ACL=acl5, Data=87851722940878513543717918785147414347087858059345998785-6542096518785-5603514168785-2460622568785-1, PUR=purpose10, SHR=shr5, TTL=18000}
+Key in update key8785
+Values in update{DEC=dec1, USR=user8785, SRC=src5, OBJ=obj85, CAT=cat5, ACL=acl5, Data=87851722940878513543717918785147414347087858059345998785-6542096518785-5603514168785-2460622568785-1, PUR=purpose10, SHR=shr5, TTL=18000}
+Update
+{DEC=dec0, USR=user5734, SRC=src4, OBJ=obj34, CAT=cat4, ACL=acl4, Data=573416334115734-1926086513573447072552657344380040255734817484418573499105738573419704178115734-4412, PUR=purpose9, SHR=shr4, TTL=16000}
+Key in update key5734
+Values in update{DEC=dec0, USR=user5734, SRC=src4, OBJ=obj34, CAT=cat4, ACL=acl4, Data=573416334115734-1926086513573447072552657344380040255734817484418573499105738573419704178115734-4412, PUR=purpose9, SHR=shr4, TTL=16000}
+["key3459"]
+[]
+Update
+{DEC=dec0, USR=user4878, SRC=src8, OBJ=obj78, CAT=cat8, ACL=acl8, Data=487816047094878914969687487857751078748783608540734878-161301784248781810186219487811584059214878-44, PUR=purpose3, SHR=shr8, TTL=24000}
+Key in update key4878
+Values in update{DEC=dec0, USR=user4878, SRC=src8, OBJ=obj78, CAT=cat8, ACL=acl8, Data=487816047094878914969687487857751078748783608540734878-161301784248781810186219487811584059214878-44, PUR=purpose3, SHR=shr8, TTL=24000}
+Update
+{DEC=dec1, USR=user9677, SRC=src7, OBJ=obj77, CAT=cat7, ACL=acl7, Data=967717517419677-7252107989677-20076837439677-13314175179677-987559769677-186523847896773763514849677, PUR=purpose2, SHR=shr7, TTL=22000}
+Key in update key9677
+Values in update{DEC=dec1, USR=user9677, SRC=src7, OBJ=obj77, CAT=cat7, ACL=acl7, Data=967717517419677-7252107989677-20076837439677-13314175179677-987559769677-186523847896773763514849677, PUR=purpose2, SHR=shr7, TTL=22000}
+[]
+[{"prop": "purpose", "info": "purpose2"}]
+Update
+{DEC=dec1, USR=user3835, SRC=src5, OBJ=obj35, CAT=cat5, ACL=acl5, Data=3835157479138358732601743835891037913835-98288075038351133827361383512308488893835-19994853173835745, PUR=purpose10, SHR=shr5, TTL=18000}
+Key in update key3835
+Values in update{DEC=dec1, USR=user3835, SRC=src5, OBJ=obj35, CAT=cat5, ACL=acl5, Data=3835157479138358732601743835891037913835-98288075038351133827361383512308488893835-19994853173835745, PUR=purpose10, SHR=shr5, TTL=18000}
+we in the read
+["key5447"]
+[]
+we in the read
+["key2200"]
+[]
+we in the read
+Update
+{DEC=dec0, USR=user3062, SRC=src2, OBJ=obj62, CAT=cat2, ACL=acl2, Data=30621567193306210680075263062-171535609430624967004853062-7704821453062-1239792257306230635627430621, PUR=purpose12, SHR=shr2, TTL=12000}
+Key in update key3062
+Values in update{DEC=dec0, USR=user3062, SRC=src2, OBJ=obj62, CAT=cat2, ACL=acl2, Data=30621567193306210680075263062-171535609430624967004853062-7704821453062-1239792257306230635627430621, PUR=purpose12, SHR=shr2, TTL=12000}
+we in the read
+Update
+{DEC=dec1, USR=user4927, SRC=src7, OBJ=obj27, CAT=cat7, ACL=acl7, Data=49271605514492717391587024927-741455191492771626894349275485894354927-141762712849275844550604927508, PUR=purpose2, SHR=shr7, TTL=22000}
+Key in update key4927
+Values in update{DEC=dec1, USR=user4927, SRC=src7, OBJ=obj27, CAT=cat7, ACL=acl7, Data=49271605514492717391587024927-741455191492771626894349275485894354927-141762712849275844550604927508, PUR=purpose2, SHR=shr7, TTL=22000}
+we in the read
+we in the read
+we in the read
+we in the read
+[]
+[{"prop": "purpose", "info": "purpose14"}]
+["key724"]
+[]
+Update
+{DEC=dec1, USR=user631, SRC=src1, OBJ=obj31, CAT=cat1, ACL=acl1, Data=63153524631-591496785631-1185451870631201116107631-474026326631-211130706963121446809466312121869590, PUR=purpose6, SHR=shr1, TTL=10000}
+Key in update key631
+Values in update{DEC=dec1, USR=user631, SRC=src1, OBJ=obj31, CAT=cat1, ACL=acl1, Data=63153524631-591496785631-1185451870631201116107631-474026326631-211130706963121446809466312121869590, PUR=purpose6, SHR=shr1, TTL=10000}
+["key9614"]
+[]
+Update
+{DEC=dec1, USR=user5955, SRC=src5, OBJ=obj55, CAT=cat5, ACL=acl5, Data=595516353965955-5631572715955-915064277595517118645475955-11157440175955-3961808275955-1295802208595, PUR=purpose5, SHR=shr5, TTL=18000}
+Key in update key5955
+Values in update{DEC=dec1, USR=user5955, SRC=src5, OBJ=obj55, CAT=cat5, ACL=acl5, Data=595516353965955-5631572715955-915064277595517118645475955-11157440175955-3961808275955-1295802208595, PUR=purpose5, SHR=shr5, TTL=18000}
+Update
+{DEC=dec1, USR=user8239, SRC=src9, OBJ=obj39, CAT=cat9, ACL=acl9, Data=823917179848239-6746464878239-116365988239-775778754823911675695088239-16508590948239-33610027082393, PUR=purpose14, SHR=shr9, TTL=1000000}
+Key in update key8239
+Values in update{DEC=dec1, USR=user8239, SRC=src9, OBJ=obj39, CAT=cat9, ACL=acl9, Data=823917179848239-6746464878239-116365988239-775778754823911675695088239-16508590948239-33610027082393, PUR=purpose14, SHR=shr9, TTL=1000000}
+Update
+{DEC=dec0, USR=user3960, SRC=src0, OBJ=obj60, CAT=cat0, ACL=acl0, Data=39601575840396013283247223960-11755037803960-206557730639602189773843960-1716524093960-1548232145396, PUR=purpose10, SHR=shr0, TTL=30}
+Key in update key3960
+Values in update{DEC=dec0, USR=user3960, SRC=src0, OBJ=obj60, CAT=cat0, ACL=acl0, Data=39601575840396013283247223960-11755037803960-206557730639602189773843960-1716524093960-1548232145396, PUR=purpose10, SHR=shr0, TTL=30}
+Update
+{DEC=dec1, USR=user7079, SRC=src9, OBJ=obj79, CAT=cat9, ACL=acl9, Data=707916863957079-3638356687079-75004616870794239870497079-21330682527079193151180870796747873407079-4, PUR=purpose4, SHR=shr9, TTL=1000000}
+Key in update key7079
+Values in update{DEC=dec1, USR=user7079, SRC=src9, OBJ=obj79, CAT=cat9, ACL=acl9, Data=707916863957079-3638356687079-75004616870794239870497079-21330682527079193151180870796747873407079-4, PUR=purpose4, SHR=shr9, TTL=1000000}
+we in the read
+["key9641"]
+[]
+we in the read
+["key9157"]
+[]
+["key3062"]
+[]
+Update
+{DEC=dec0, USR=user4252, SRC=src2, OBJ=obj52, CAT=cat2, ACL=acl2, Data=4252159887542524047093142521350851668425210424097444252-1600336670425212957578284252-966047839425222, PUR=purpose2, SHR=shr2, TTL=12000}
+Key in update key4252
+Values in update{DEC=dec0, USR=user4252, SRC=src2, OBJ=obj52, CAT=cat2, ACL=acl2, Data=4252159887542524047093142521350851668425210424097444252-1600336670425212957578284252-966047839425222, PUR=purpose2, SHR=shr2, TTL=12000}
+we in the read
+Update
+{DEC=dec0, USR=user8358, SRC=src8, OBJ=obj58, CAT=cat8, ACL=acl8, Data=835817190068358196474314483581997505127835817537745358358-5001746768358-14720382158358565518898358-5, PUR=purpose8, SHR=shr8, TTL=24000}
+Key in update key8358
+Values in update{DEC=dec0, USR=user8358, SRC=src8, OBJ=obj58, CAT=cat8, ACL=acl8, Data=835817190068358196474314483581997505127835817537745358358-5001746768358-14720382158358565518898358-5, PUR=purpose8, SHR=shr8, TTL=24000}
+we in the read
+we in the read
+Update
+{DEC=dec0, USR=user9210, SRC=src0, OBJ=obj10, CAT=cat0, ACL=acl0, Data=92101747704921014215272189210-15929394779210-903673940921013595831589210125714063292101541936279210-, PUR=purpose10, SHR=shr0, TTL=30}
+Key in update key9210
+Values in update{DEC=dec0, USR=user9210, SRC=src0, OBJ=obj10, CAT=cat0, ACL=acl0, Data=92101747704921014215272189210-15929394779210-903673940921013595831589210125714063292101541936279210-, PUR=purpose10, SHR=shr0, TTL=30}
+["key9120"]
+[]
+["key9892"]
+[]
+Update
+{DEC=dec1, USR=user6347, SRC=src7, OBJ=obj47, CAT=cat7, ACL=acl7, Data=634716593926347-707957533634721392996946347-1482652206634716282164456347-365698394634717786754286347, PUR=purpose22, SHR=shr7, TTL=22000}
+Key in update key6347
+Values in update{DEC=dec1, USR=user6347, SRC=src7, OBJ=obj47, CAT=cat7, ACL=acl7, Data=634716593926347-707957533634721392996946347-1482652206634716282164456347-365698394634717786754286347, PUR=purpose22, SHR=shr7, TTL=22000}
+Update
+{DEC=dec0, USR=user7108, SRC=src8, OBJ=obj8, CAT=cat8, ACL=acl8, Data=7108168713871088541434107108-118525915871081763705607108-19961691957108-527511688710813166104407108-, PUR=purpose8, SHR=shr8, TTL=24000}
+Key in update key7108
+Values in update{DEC=dec0, USR=user7108, SRC=src8, OBJ=obj8, CAT=cat8, ACL=acl8, Data=7108168713871088541434107108-118525915871081763705607108-19961691957108-527511688710813166104407108-, PUR=purpose8, SHR=shr8, TTL=24000}
+we in the read
+Update
+{DEC=dec0, USR=user5672, SRC=src2, OBJ=obj72, CAT=cat2, ACL=acl2, Data=56721632572567276005287656722765225715672630260124567216316874825672-2433202385672-13050128085672173, PUR=purpose22, SHR=shr2, TTL=12000}
+Key in update key5672
+Values in update{DEC=dec0, USR=user5672, SRC=src2, OBJ=obj72, CAT=cat2, ACL=acl2, Data=56721632572567276005287656722765225715672630260124567216316874825672-2433202385672-13050128085672173, PUR=purpose22, SHR=shr2, TTL=12000}
+we in the read
+Update
+{DEC=dec1, USR=user2387, SRC=src7, OBJ=obj87, CAT=cat7, ACL=acl7, Data=238715403522387-2329010082387-120470062223871498391871238716972004242387-51057742523873459633202387-, PUR=purpose12, SHR=shr7, TTL=22000}
+Key in update key2387
+Values in update{DEC=dec1, USR=user2387, SRC=src7, OBJ=obj87, CAT=cat7, ACL=acl7, Data=238715403522387-2329010082387-120470062223871498391871238716972004242387-51057742523873459633202387-, PUR=purpose12, SHR=shr7, TTL=22000}
+we in the read
+["key9282"]
+[]
+we in the read
+[]
+[{"prop": "purpose", "info": "purpose11"}]
+[]
+[{"prop": "purpose", "info": "purpose17"}]
+["key3609"]
+[]
+Update
+{DEC=dec0, USR=user1642, SRC=src2, OBJ=obj42, CAT=cat2, ACL=acl2, Data=164215133151642-7798435351642-34041699216423560617581642189243540016421673777033164215538818621642-1, PUR=purpose17, SHR=shr2, TTL=12000}
+Key in update key1642
+Values in update{DEC=dec0, USR=user1642, SRC=src2, OBJ=obj42, CAT=cat2, ACL=acl2, Data=164215133151642-7798435351642-34041699216423560617581642189243540016421673777033164215538818621642-1, PUR=purpose17, SHR=shr2, TTL=12000}
+[]
+[{"prop": "purpose", "info": "purpose20"}]
+we in the read
+Update
+{DEC=dec0, USR=user5874, SRC=src4, OBJ=obj74, CAT=cat4, ACL=acl4, Data=587416344965874-16287949335874-32259111658741796647811587413384560695874-9535730465874-1023969075874, PUR=purpose24, SHR=shr4, TTL=16000}
+Key in update key5874
+Values in update{DEC=dec0, USR=user5874, SRC=src4, OBJ=obj74, CAT=cat4, ACL=acl4, Data=587416344965874-16287949335874-32259111658741796647811587413384560695874-9535730465874-1023969075874, PUR=purpose24, SHR=shr4, TTL=16000}
+Update
+{DEC=dec0, USR=user3704, SRC=src4, OBJ=obj4, CAT=cat4, ACL=acl4, Data=370415737363704219976410370417352304993704-2092753224370416262434433704722584678370415823461753704-1, PUR=purpose4, SHR=shr4, TTL=16000}
+Key in update key3704
+Values in update{DEC=dec0, USR=user3704, SRC=src4, OBJ=obj4, CAT=cat4, ACL=acl4, Data=370415737363704219976410370417352304993704-2092753224370416262434433704722584678370415823461753704-1, PUR=purpose4, SHR=shr4, TTL=16000}
+we in the read
+we in the read
+["key7799"]
+[]
+we in the read
+Update
+{DEC=dec1, USR=user5975, SRC=src5, OBJ=obj75, CAT=cat5, ACL=acl5, Data=597516354585975-37512910459757946651395975-11933247759752112149955975101568655975-15539322175975-278, PUR=purpose0, SHR=shr5, TTL=18000}
+Key in update key5975
+Values in update{DEC=dec1, USR=user5975, SRC=src5, OBJ=obj75, CAT=cat5, ACL=acl5, Data=597516354585975-37512910459757946651395975-11933247759752112149955975101568655975-15539322175975-278, PUR=purpose0, SHR=shr5, TTL=18000}
+we in the read
+we in the read
+Update
+{DEC=dec0, USR=user2472, SRC=src2, OBJ=obj72, CAT=cat2, ACL=acl2, Data=247215412772472-1732867352472-17161418972472-14333753222472-6700491752472-16185876462472902701720247, PUR=purpose22, SHR=shr2, TTL=12000}
+Key in update key2472
+Values in update{DEC=dec0, USR=user2472, SRC=src2, OBJ=obj72, CAT=cat2, ACL=acl2, Data=247215412772472-1732867352472-17161418972472-14333753222472-6700491752472-16185876462472902701720247, PUR=purpose22, SHR=shr2, TTL=12000}
+we in the read
+we in the read
+we in the read
+[]
+[{"prop": "purpose", "info": "purpose14"}]
+we in the read
+Update
+{DEC=dec1, USR=user4009, SRC=src9, OBJ=obj9, CAT=cat9, ACL=acl9, Data=400915968054009-2638445484009-11494626204009-437575134009-14269118804009-73648938440099201029804009-, PUR=purpose9, SHR=shr9, TTL=1000000}
+Key in update key4009
+Values in update{DEC=dec1, USR=user4009, SRC=src9, OBJ=obj9, CAT=cat9, ACL=acl9, Data=400915968054009-2638445484009-11494626204009-437575134009-14269118804009-73648938440099201029804009-, PUR=purpose9, SHR=shr9, TTL=1000000}
+we in the read
+[]
+[{"prop": "purpose", "info": "purpose18"}]
+Update
+{DEC=dec0, USR=user2918, SRC=src8, OBJ=obj18, CAT=cat8, ACL=acl8, Data=291815459022918-723173222918-16427606462918-3889312852918-4902227932918-9851868142918-14545826192918, PUR=purpose18, SHR=shr8, TTL=24000}
+Key in update key2918
+Values in update{DEC=dec0, USR=user2918, SRC=src8, OBJ=obj18, CAT=cat8, ACL=acl8, Data=291815459022918-723173222918-16427606462918-3889312852918-4902227932918-9851868142918-14545826192918, PUR=purpose18, SHR=shr8, TTL=24000}
+we in the read
+Update
+{DEC=dec1, USR=user4927, SRC=src7, OBJ=obj27, CAT=cat7, ACL=acl7, Data=49271605514492717391587024927-741455191492771626894349275485894354927-141762712849275844550604927508, PUR=purpose2, SHR=shr7, TTL=22000}
+Key in update key4927
+Values in update{DEC=dec1, USR=user4927, SRC=src7, OBJ=obj27, CAT=cat7, ACL=acl7, Data=49271605514492717391587024927-741455191492771626894349275485894354927-141762712849275844550604927508, PUR=purpose2, SHR=shr7, TTL=22000}
+[]
+[{"prop": "purpose", "info": "purpose3"}]
+Update
+{DEC=dec0, USR=user6470, SRC=src0, OBJ=obj70, CAT=cat0, ACL=acl0, Data=64701660439647017069792596470-138284125564707601046126470-14626386826470-5036388626470-6489547076470, PUR=purpose20, SHR=shr0, TTL=30}
+Key in update key6470
+Values in update{DEC=dec0, USR=user6470, SRC=src0, OBJ=obj70, CAT=cat0, ACL=acl0, Data=64701660439647017069792596470-138284125564707601046126470-14626386826470-5036388626470-6489547076470, PUR=purpose20, SHR=shr0, TTL=30}
+[]
+[{"prop": "purpose", "info": "purpose3"}]
+[]
+[{"prop": "purpose", "info": "purpose15"}]
+["key1069"]
+[]
+Update
+{DEC=dec1, USR=user8435, SRC=src5, OBJ=obj35, CAT=cat5, ACL=acl5, Data=84351719902843510526477258435-74696920843521329241648435-2158253248435-14745698998435-17125461228435, PUR=purpose10, SHR=shr5, TTL=18000}
+Key in update key8435
+Values in update{DEC=dec1, USR=user8435, SRC=src5, OBJ=obj35, CAT=cat5, ACL=acl5, Data=84351719902843510526477258435-74696920843521329241648435-2158253248435-14745698998435-17125461228435, PUR=purpose10, SHR=shr5, TTL=18000}
+we in the read
+Update
+{DEC=dec0, USR=user144, SRC=src4, OBJ=obj44, CAT=cat4, ACL=acl4, Data=144487531441234118193144-1160003829144-3066443111448076707831441638584878144-1797022607144-171403996, PUR=purpose19, SHR=shr4, TTL=16000}
+Key in update key144
+Values in update{DEC=dec0, USR=user144, SRC=src4, OBJ=obj44, CAT=cat4, ACL=acl4, Data=144487531441234118193144-1160003829144-3066443111448076707831441638584878144-1797022607144-171403996, PUR=purpose19, SHR=shr4, TTL=16000}
+we in the read
+["key9024"]
+[]
+Update
+{DEC=dec0, USR=user8088, SRC=src8, OBJ=obj88, CAT=cat8, ACL=acl8, Data=808817162168088-8235872848088-19691042468088-791792795808875913904280889067420568088-10258204698088-, PUR=purpose13, SHR=shr8, TTL=24000}
+Key in update key8088
+Values in update{DEC=dec0, USR=user8088, SRC=src8, OBJ=obj88, CAT=cat8, ACL=acl8, Data=808817162168088-8235872848088-19691042468088-791792795808875913904280889067420568088-10258204698088-, PUR=purpose13, SHR=shr8, TTL=24000}
+[]
+[{"prop": "purpose", "info": "purpose9"}]
+["key1934"]
+[]
+["key299"]
+[]
+[]
+[{"prop": "purpose", "info": "purpose22"}]
+we in the read
+Update
+{DEC=dec0, USR=user9256, SRC=src6, OBJ=obj56, CAT=cat6, ACL=acl6, Data=92561747834925619958027689256-4315725959256-10735134599256-9325574189256-20640624019256-186159115592, PUR=purpose6, SHR=shr6, TTL=20000}
+Key in update key9256
+Values in update{DEC=dec0, USR=user9256, SRC=src6, OBJ=obj56, CAT=cat6, ACL=acl6, Data=92561747834925619958027689256-4315725959256-10735134599256-9325574189256-20640624019256-186159115592, PUR=purpose6, SHR=shr6, TTL=20000}
+["key4433"]
+[]
+Update
+{DEC=dec0, USR=user6716, SRC=src6, OBJ=obj16, CAT=cat6, ACL=acl6, Data=67161663142671610183376136716124942319467162142920029671612977210566716-2061233504671611777412676716, PUR=purpose16, SHR=shr6, TTL=20000}
+Key in update key6716
+Values in update{DEC=dec0, USR=user6716, SRC=src6, OBJ=obj16, CAT=cat6, ACL=acl6, Data=67161663142671610183376136716124942319467162142920029671612977210566716-2061233504671611777412676716, PUR=purpose16, SHR=shr6, TTL=20000}
+we in the read
+Update
+{DEC=dec0, USR=user3710, SRC=src0, OBJ=obj10, CAT=cat0, ACL=acl0, Data=371015737633710-5066405563710-3194027113710-14231785333710-16427762923710-2664634443710-189860679337, PUR=purpose10, SHR=shr0, TTL=30}
+Key in update key3710
+Values in update{DEC=dec0, USR=user3710, SRC=src0, OBJ=obj10, CAT=cat0, ACL=acl0, Data=371015737633710-5066405563710-3194027113710-14231785333710-16427762923710-2664634443710-189860679337, PUR=purpose10, SHR=shr0, TTL=30}
+["key9017"]
+[]
+["key8172"]
+[]
+Update
+{DEC=dec1, USR=user4927, SRC=src7, OBJ=obj27, CAT=cat7, ACL=acl7, Data=49271605514492717391587024927-741455191492771626894349275485894354927-141762712849275844550604927508, PUR=purpose2, SHR=shr7, TTL=22000}
+Key in update key4927
+Values in update{DEC=dec1, USR=user4927, SRC=src7, OBJ=obj27, CAT=cat7, ACL=acl7, Data=49271605514492717391587024927-741455191492771626894349275485894354927-141762712849275844550604927508, PUR=purpose2, SHR=shr7, TTL=22000}
+[]
+[{"prop": "purpose", "info": "purpose19"}]
+[]
+[{"prop": "purpose", "info": "purpose2"}]
+["key6124"]
+[]
+[]
+[{"prop": "purpose", "info": "purpose6"}]
+we in the read
+we in the read
+[]
+[{"prop": "purpose", "info": "purpose13"}]
+we in the read
+we in the read
+Update
+{DEC=dec1, USR=user6369, SRC=src9, OBJ=obj69, CAT=cat9, ACL=acl9, Data=636916594566369-2599168846369-14854251416369-105359239163691017543118636917769605036369-563369951636, PUR=purpose19, SHR=shr9, TTL=1000000}
+Key in update key6369
+Values in update{DEC=dec1, USR=user6369, SRC=src9, OBJ=obj69, CAT=cat9, ACL=acl9, Data=636916594566369-2599168846369-14854251416369-105359239163691017543118636917769605036369-563369951636, PUR=purpose19, SHR=shr9, TTL=1000000}
+we in the read
+we in the read
+["key3692"]
+[]
+Update
+{DEC=dec0, USR=user9492, SRC=src2, OBJ=obj92, CAT=cat2, ACL=acl2, Data=949217498769492-1398238324949210001112529492-561350999492-11857712709492-14070077149492-256962192949, PUR=purpose17, SHR=shr2, TTL=12000}
+Key in update key9492
+Values in update{DEC=dec0, USR=user9492, SRC=src2, OBJ=obj92, CAT=cat2, ACL=acl2, Data=949217498769492-1398238324949210001112529492-561350999492-11857712709492-14070077149492-256962192949, PUR=purpose17, SHR=shr2, TTL=12000}
+we in the read
+Update
+{DEC=dec1, USR=user4507, SRC=src7, OBJ=obj7, CAT=cat7, ACL=acl7, Data=450716016084507-176047741645079244824507-587210851450784277015945071414311860450713389588494507-3376, PUR=purpose7, SHR=shr7, TTL=22000}
+Key in update key4507
+Values in update{DEC=dec1, USR=user4507, SRC=src7, OBJ=obj7, CAT=cat7, ACL=acl7, Data=450716016084507-176047741645079244824507-587210851450784277015945071414311860450713389588494507-3376, PUR=purpose7, SHR=shr7, TTL=22000}
+Update
+{DEC=dec1, USR=user4917, SRC=src7, OBJ=obj17, CAT=cat7, ACL=acl7, Data=49171605483491713445385334917-5830082114917-443146411491722952509549179610240494917-1842090991491759, PUR=purpose17, SHR=shr7, TTL=22000}
+Key in update key4917
+Values in update{DEC=dec1, USR=user4917, SRC=src7, OBJ=obj17, CAT=cat7, ACL=acl7, Data=49171605483491713445385334917-5830082114917-443146411491722952509549179610240494917-1842090991491759, PUR=purpose17, SHR=shr7, TTL=22000}
+Update
+{DEC=dec1, USR=user8165, SRC=src5, OBJ=obj65, CAT=cat5, ACL=acl5, Data=816517171128165-277974586816513003311688165-209660070881651677296525816516092757318165-6277112988165, PUR=purpose15, SHR=shr5, TTL=18000}
+Key in update key8165
+Values in update{DEC=dec1, USR=user8165, SRC=src5, OBJ=obj65, CAT=cat5, ACL=acl5, Data=816517171128165-277974586816513003311688165-209660070881651677296525816516092757318165-6277112988165, PUR=purpose15, SHR=shr5, TTL=18000}
+Update
+{DEC=dec0, USR=user982, SRC=src2, OBJ=obj82, CAT=cat2, ACL=acl2, Data=98256563982-18112271799826734288249821344930873982-1788339782982508502338982133286648798211695210569, PUR=purpose7, SHR=shr2, TTL=12000}
+Key in update key982
+Values in update{DEC=dec0, USR=user982, SRC=src2, OBJ=obj82, CAT=cat2, ACL=acl2, Data=98256563982-18112271799826734288249821344930873982-1788339782982508502338982133286648798211695210569, PUR=purpose7, SHR=shr2, TTL=12000}
+we in the read
+we in the read
+[]
+[{"prop": "purpose", "info": "purpose9"}]
+we in the read
+Update
+{DEC=dec0, USR=user6810, SRC=src0, OBJ=obj10, CAT=cat0, ACL=acl0, Data=6810166409768107413536436810-19908687226810961564284681012219662606810-201666130468101966890396810-7, PUR=purpose10, SHR=shr0, TTL=30}
+Key in update key6810
+Values in update{DEC=dec0, USR=user6810, SRC=src0, OBJ=obj10, CAT=cat0, ACL=acl0, Data=6810166409768107413536436810-19908687226810961564284681012219662606810-201666130468101966890396810-7, PUR=purpose10, SHR=shr0, TTL=30}
+we in the read
+we in the read
+[]
+[{"prop": "purpose", "info": "purpose16"}]
+["key9695"]
+[]
+we in the read
+we in the read
+["key1801"]
+[]
+[]
+[{"prop": "purpose", "info": "purpose1"}]
+Update
+{DEC=dec1, USR=user549, SRC=src9, OBJ=obj49, CAT=cat9, ACL=acl9, Data=54952602549-14265748235491714208312549-835694145549-9621563395491231627774549329827780549-1059889230, PUR=purpose24, SHR=shr9, TTL=1000000}
+Key in update key549
+Values in update{DEC=dec1, USR=user549, SRC=src9, OBJ=obj49, CAT=cat9, ACL=acl9, Data=54952602549-14265748235491714208312549-835694145549-9621563395491231627774549329827780549-1059889230, PUR=purpose24, SHR=shr9, TTL=1000000}
+Update
+{DEC=dec0, USR=user2504, SRC=src4, OBJ=obj4, CAT=cat4, ACL=acl4, Data=25041542023250414541050072504-3724880712504172257111250411459425532504-2171317792504-13347721672504-, PUR=purpose4, SHR=shr4, TTL=16000}
+Key in update key2504
+Values in update{DEC=dec0, USR=user2504, SRC=src4, OBJ=obj4, CAT=cat4, ACL=acl4, Data=25041542023250414541050072504-3724880712504172257111250411459425532504-2171317792504-13347721672504-, PUR=purpose4, SHR=shr4, TTL=16000}
+Update
+{DEC=dec0, USR=user1496, SRC=src6, OBJ=obj96, CAT=cat6, ACL=acl6, Data=14961511552149619766878221496-36344007214968788417821496-15578324491496-20513842981496-2096373517149, PUR=purpose21, SHR=shr6, TTL=20000}
+Key in update key1496
+Values in update{DEC=dec0, USR=user1496, SRC=src6, OBJ=obj96, CAT=cat6, ACL=acl6, Data=14961511552149619766878221496-36344007214968788417821496-15578324491496-20513842981496-2096373517149, PUR=purpose21, SHR=shr6, TTL=20000}
+["key5699"]
+[]
+Update
+{DEC=dec0, USR=user3270, SRC=src0, OBJ=obj70, CAT=cat0, ACL=acl0, Data=327015691443270-14462450783270-20984445143270-12409153203270-8662338743270-18145497403270-6856058683, PUR=purpose20, SHR=shr0, TTL=30}
+Key in update key3270
+Values in update{DEC=dec0, USR=user3270, SRC=src0, OBJ=obj70, CAT=cat0, ACL=acl0, Data=327015691443270-14462450783270-20984445143270-12409153203270-8662338743270-18145497403270-6856058683, PUR=purpose20, SHR=shr0, TTL=30}
+Update
+{DEC=dec0, USR=user8232, SRC=src2, OBJ=obj32, CAT=cat2, ACL=acl2, Data=823217179778232-160408411582323168370678232-19399931258232793520602823211314270982321766344392823225, PUR=purpose7, SHR=shr2, TTL=12000}
+Key in update key8232
+Values in update{DEC=dec0, USR=user8232, SRC=src2, OBJ=obj32, CAT=cat2, ACL=acl2, Data=823217179778232-160408411582323168370678232-19399931258232793520602823211314270982321766344392823225, PUR=purpose7, SHR=shr2, TTL=12000}
+Update
+{DEC=dec1, USR=user4927, SRC=src7, OBJ=obj27, CAT=cat7, ACL=acl7, Data=49271605514492717391587024927-741455191492771626894349275485894354927-141762712849275844550604927508, PUR=purpose2, SHR=shr7, TTL=22000}
+Key in update key4927
+Values in update{DEC=dec1, USR=user4927, SRC=src7, OBJ=obj27, CAT=cat7, ACL=acl7, Data=49271605514492717391587024927-741455191492771626894349275485894354927-141762712849275844550604927508, PUR=purpose2, SHR=shr7, TTL=22000}
+we in the read
+Update
+{DEC=dec0, USR=user4444, SRC=src4, OBJ=obj44, CAT=cat4, ACL=acl4, Data=4444160076844447956557324444-14364035344443413276494444199198219444448495846194444-10800117134444-19, PUR=purpose19, SHR=shr4, TTL=16000}
+Key in update key4444
+Values in update{DEC=dec0, USR=user4444, SRC=src4, OBJ=obj44, CAT=cat4, ACL=acl4, Data=4444160076844447956557324444-14364035344443413276494444199198219444448495846194444-10800117134444-19, PUR=purpose19, SHR=shr4, TTL=16000}
+we in the read
+we in the read
+["key8120"]
+[]
+["key96"]
+[]
+we in the read
+Update
+{DEC=dec1, USR=user2631, SRC=src1, OBJ=obj31, CAT=cat1, ACL=acl1, Data=2631154307426311567969866263116919763972631-1376044635263110167512192631-884278592263115461193322631, PUR=purpose6, SHR=shr1, TTL=10000}
+Key in update key2631
+Values in update{DEC=dec1, USR=user2631, SRC=src1, OBJ=obj31, CAT=cat1, ACL=acl1, Data=2631154307426311567969866263116919763972631-1376044635263110167512192631-884278592263115461193322631, PUR=purpose6, SHR=shr1, TTL=10000}
+we in the read
+Update
+{DEC=dec1, USR=user5703, SRC=src3, OBJ=obj3, CAT=cat3, ACL=acl3, Data=570316333175703-20569228605703-555863498570315638575055703-6835534655703-15661808485703-127669245557, PUR=purpose3, SHR=shr3, TTL=14000}
+Key in update key5703
+Values in update{DEC=dec1, USR=user5703, SRC=src3, OBJ=obj3, CAT=cat3, ACL=acl3, Data=570316333175703-20569228605703-555863498570315638575055703-6835534655703-15661808485703-127669245557, PUR=purpose3, SHR=shr3, TTL=14000}
+we in the read
+we in the read
+Update
+{DEC=dec0, USR=user200, SRC=src0, OBJ=obj0, CAT=cat0, ACL=acl0, Data=20049586200-303789738200485441839200-1398616861200-1652092561200-184318222920096392892200-8196388922, PUR=purpose0, SHR=shr0, TTL=30}
+Key in update key200
+Values in update{DEC=dec0, USR=user200, SRC=src0, OBJ=obj0, CAT=cat0, ACL=acl0, Data=20049586200-303789738200485441839200-1398616861200-1652092561200-184318222920096392892200-8196388922, PUR=purpose0, SHR=shr0, TTL=30}
+["key5930"]
+[]
+we in the read
+Update
+{DEC=dec1, USR=user3917, SRC=src7, OBJ=obj17, CAT=cat7, ACL=acl7, Data=391715756923917206890407739174453782523917-18051458083917-1998076349391717713588223917-1493657580391, PUR=purpose17, SHR=shr7, TTL=22000}
+Key in update key3917
+Values in update{DEC=dec1, USR=user3917, SRC=src7, OBJ=obj17, CAT=cat7, ACL=acl7, Data=391715756923917206890407739174453782523917-18051458083917-1998076349391717713588223917-1493657580391, PUR=purpose17, SHR=shr7, TTL=22000}
+[]
+[{"prop": "purpose", "info": "purpose19"}]
+we in the read
+[]
+[{"prop": "purpose", "info": "purpose2"}]
+["key2270"]
+[]
+["key3883"]
+[]
+[OVERALL], RunTime(ms), 9951
+[OVERALL], Throughput(ops/sec), 100.49241282283188
+[TOTAL_GCS_G1_Young_Generation], Count, 4
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 31
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.3115264797507788
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 4
+[TOTAL_GC_TIME], Time(ms), 31
+[TOTAL_GC_TIME_%], Time(%), 0.3115264797507788
+[VERIFYTTL], Operations, 1
+[VERIFYTTL], AverageLatency(us), 184512.0
+[VERIFYTTL], MinLatency(us), 184448
+[VERIFYTTL], MaxLatency(us), 184575
+[VERIFYTTL], 95thPercentileLatency(us), 184575
+[VERIFYTTL], 99thPercentileLatency(us), 184575
+[VERIFYTTL], Return=OK, 1
+[READ], Operations, 194
+[READ], AverageLatency(us), 3776.2061855670104
+[READ], MinLatency(us), 2586
+[READ], MaxLatency(us), 5635
+[READ], 95thPercentileLatency(us), 4851
+[READ], 99thPercentileLatency(us), 5543
+[READ], Return=OK, 194
+[READMETA], Operations, 201
+[READMETA], AverageLatency(us), 712.7213930348258
+[READMETA], MinLatency(us), 364
+[READMETA], MaxLatency(us), 6647
+[READMETA], 95thPercentileLatency(us), 1196
+[READMETA], 99thPercentileLatency(us), 1533
+[READMETA], Return=OK, 201
+[DELETE], Operations, 200
+[DELETE], AverageLatency(us), 7844.745
+[DELETE], MinLatency(us), 3686
+[DELETE], MaxLatency(us), 12751
+[DELETE], 95thPercentileLatency(us), 10743
+[DELETE], 99thPercentileLatency(us), 11439
+[DELETE], Return=OK, 200
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 1143.0
+[CLEANUP], MinLatency(us), 1143
+[CLEANUP], MaxLatency(us), 1143
+[CLEANUP], 95thPercentileLatency(us), 1143
+[CLEANUP], 99thPercentileLatency(us), 1143
+[UPDATE], Operations, 223
+[UPDATE], AverageLatency(us), 16635.03139013453
+[UPDATE], MinLatency(us), 8752
+[UPDATE], MaxLatency(us), 47007
+[UPDATE], 95thPercentileLatency(us), 23727
+[UPDATE], 99thPercentileLatency(us), 32655
+[UPDATE], Return=OK, 223
+[READLOG], Operations, 1
+[READLOG], AverageLatency(us), 12252.0
+[READLOG], MinLatency(us), 12248
+[READLOG], MaxLatency(us), 12255
+[READLOG], 95thPercentileLatency(us), 12255
+[READLOG], 99thPercentileLatency(us), 12255
+[READLOG], Return=OK, 1
+[UPDATEMETA], Operations, 182
+[UPDATEMETA], AverageLatency(us), 18331.384615384617
+[UPDATEMETA], MinLatency(us), 0
+[UPDATEMETA], MaxLatency(us), 87423
+[UPDATEMETA], 95thPercentileLatency(us), 54079
+[UPDATEMETA], 99thPercentileLatency(us), 57631
+[UPDATEMETA], Return=OK, 182

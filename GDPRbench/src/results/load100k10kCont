@@ -1,0 +1,16 @@
+/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Xms10G -Xmx20G -classpath /home/farquad/Documents/gdprsearch/GDPRbench/src/conf:/home/farquad/Documents/gdprsearch/GDPRbench/src/core/target/core-0.16.0-SNAPSHOT.jar:/home/farquad/Documents/gdprsearch/GDPRbench/src/core/target/dependency/HdrHistogram-2.1.4.jar:/home/farquad/Documents/gdprsearch/GDPRbench/src/core/target/dependency/htrace-core4-4.2.0-incubating.jar:/home/farquad/Documents/gdprsearch/GDPRbench/src/jdbc/src/main/conf:/home/farquad/Documents/gdprsearch/GDPRbench/src/jdbc/target/jdbc-binding-0.16.0-SNAPSHOT.jar:/home/farquad/Documents/gdprsearch/GDPRbench/src/jdbc/target/dependency/checker-qual-3.5.0.jar:/home/farquad/Documents/gdprsearch/GDPRbench/src/jdbc/target/dependency/commons-collections-3.2.1.jar:/home/farquad/Documents/gdprsearch/GDPRbench/src/jdbc/target/dependency/commons-lang-2.4.jar:/home/farquad/Documents/gdprsearch/GDPRbench/src/jdbc/target/dependency/commons-pool-1.5.4.jar:/home/farquad/Documents/gdprsearch/GDPRbench/src/jdbc/target/dependency/geronimo-jms_1.1_spec-1.1.1.jar:/home/farquad/Documents/gdprsearch/GDPRbench/src/jdbc/target/dependency/geronimo-jta_1.1_spec-1.1.1.jar:/home/farquad/Documents/gdprsearch/GDPRbench/src/jdbc/target/dependency/jackson-annotations-2.12.3.jar:/home/farquad/Documents/gdprsearch/GDPRbench/src/jdbc/target/dependency/jackson-core-2.10.2.jar:/home/farquad/Documents/gdprsearch/GDPRbench/src/jdbc/target/dependency/jackson-databind-2.10.2.jar:/home/farquad/Documents/gdprsearch/GDPRbench/src/jdbc/target/dependency/okhttp-3.11.0.jar:/home/farquad/Documents/gdprsearch/GDPRbench/src/jdbc/target/dependency/okio-1.14.0.jar:/home/farquad/Documents/gdprsearch/GDPRbench/src/jdbc/target/dependency/openjpa-jdbc-2.1.1.jar:/home/farquad/Documents/gdprsearch/GDPRbench/src/jdbc/target/dependency/openjpa-kernel-2.1.1.jar:/home/farquad/Documents/gdprsearch/GDPRbench/src/jdbc/target/dependency/openjpa-lib-2.1.1.jar:/home/farquad/Documents/gdprsearch/GDPRbench/src/jdbc/target/dependency/postgresql-42.2.20.jar:/home/farquad/Documents/gdprsearch/GDPRbench/src/jdbc/target/dependency/serp-1.13.1.jar com.yahoo.ycsb.Client -load -db com.yahoo.ycsb.db.JdbcDBClient -P ./jdbc/src/main/conf/db.properties -P ./workloads/gdpr_controller -s
+Adding shard node URL: jdbc:postgresql://127.0.0.1:5432/test
+Using shards: 1, batchSize:-1, fetchSize: -1
+[122.625s][warning][os,thread] Attempt to protect stack guard pages failed (0x00007f6d96fb0000-0x00007f6d96fb4000).
+[122.625s][warning][os,thread] Attempt to deallocate stack guard pages failed.
+[122.631s][warning][os,thread] Failed to start thread - pthread_create failed (EAGAIN) for attributes: stacksize: 1024k, guardsize: 0k, detached.
+[122.633s][warning][os,thread] Attempt to deallocate stack guard pages failed (0x00007f770a4c3000-0x00007f770a4c7000).
+[122.634s][warning][os,thread] Attempt to deallocate stack guard pages failed (0x00007f770a7c6000-0x00007f770a7ca000).
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 65536 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/farquad/Documents/gdprsearch/GDPRbench/src/hs_err_pid102969.log
+#
+# Compiler replay data is saved as:
+# /home/farquad/Documents/gdprsearch/GDPRbench/src/replay_pid102969.log
