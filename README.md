@@ -1,6 +1,6 @@
 # Grounding-GDPR-Exp
 
-## P1Benchmark Experiments
+## P_UCI Benchmark Experiments
 This branch contains the code to run the experiments from figure 5/table 3. 
 
 ## Prerequisites
