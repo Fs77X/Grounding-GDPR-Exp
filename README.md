@@ -25,7 +25,7 @@ Edit the file /etc/postgresql/14/main/postgresql.conf with the following max_con
 ```bash
 max_connections = 100000
 ```
-This allows postgresql to accpet many connections very fast which is needed for the benchmark.
+This allows postgresql to accpet many connections very fast which is needed for the benchmark. Also, make sure to restart postgresql once you've made all of these changes!
 
 In a terminal run the following as the postgres user:
 ```bash
