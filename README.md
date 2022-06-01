@@ -31,7 +31,7 @@ In a terminal run the following as the postgres user:
 ```bash
 sudo su postgres # to switch to postgres
 psql
-CREATE USER admin WITH LOGIN;
+CREATE ROLE admin WITH LOGIN;
 CREATE DATABASE the_db;
 GRANT ALL PRIVILEGES ON DATABASE the_db TO admin;
 exit #CTRL+D
