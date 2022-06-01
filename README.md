@@ -121,4 +121,8 @@ In the terminal where you loaded the dataset, run the experiment with the follow
 Output from the benchmark should give eta's as the benchmark runs and overall runtime in seconds and ms, throughtput and latency measurements for each type of operation in the workload.
 
 ## Cleanup
-After the benchmark is done running, delete the data from usertable and do a full vacuum. Also, close the ttl script and log script and rerun them as this was the routine used while running the experiments. Because sieve has multiple tables it is easier to drop the entire database and recreate it from the steps in the readme.
+Because sieve has multiple tables it is easier to drop the entire database and recreate it from the steps in the readme. Also, close the ttl script and log script and rerun them as this was the routine used while running the experiments. To reset kafka run the following command after shutting down kafka and zookeeper:
+
+```bash
+rm -rf /tmp/kafka-logs /tmp/zookeeper
+```
