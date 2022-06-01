@@ -59,7 +59,7 @@ CREATE TABLE user_policy(
     enforcement_action character varying(255),
     inserted_at character varying(255) NOT NULL,
     tomb integer NOT NULL,
-    device_id integer NOT NULL,
+    device_id integer NOT NULL
 );
 create index tomb_index on user_policy (tomb);
 ```
