@@ -1,6 +1,6 @@
 # Grounding-GDPR-Exp
 
-## P2YCSB Benchmark Experiments
+## P_UCI YCSB Benchmark Experiments
 This branch contains the code to run the experiments from figure 5c. 
 
 ## Prerequisites
