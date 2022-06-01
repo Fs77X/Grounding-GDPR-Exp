@@ -171,7 +171,7 @@ public class JdbcDBClient extends DB {
       c = DriverManager
           .getConnection("jdbc:postgresql://127.0.0.1:5432/sieve",
               "postgres", "admin");
-      System.out.println("Opened database successfully");
+      // System.out.println("Opened database successfully");
       return c;
     } catch (Exception e) {
       e.printStackTrace();
@@ -451,7 +451,7 @@ public class JdbcDBClient extends DB {
           .method("GET", null)
           .build();
       Response response = client.newCall(request).execute();
-      System.out.println("response code in mget_entry: " + response.code());
+      // System.out.println("response code in mget_entry: " + response.code());
       ResponseBody boi = response.body();
       boi.close();
       // we have found that sometimes data gets deleted or expires before it can be
