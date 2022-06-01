@@ -94,7 +94,7 @@ In the same terminal window run the following command to load the generated data
 ./bin/ycsb.sh load jdbc -P ./jdbc/src/main/conf/db.properties -P ./workloads/{controller workload from workload directory} -s
 ```
 
-Open another terminal:
+Open another terminal when the loading is done:
 ```bash
 cd Grounding-GDPR-Exp
 go run ttldaemon.go {delete, vac, vacfull, tomb} # depending on the experiment, if you want to run normal deletes then give the delete argument for example
