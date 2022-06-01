@@ -1,6 +1,6 @@
 # Grounding-GDPR-Exp
 
-## P3Benchmark Experiments
+## P_Gbench Benchmark Experiments
 This branch contains the code to run the experiments from figure 5/table 3. 
 
 ## Prerequisites
