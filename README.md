@@ -7,6 +7,7 @@ This branch contains the code to run the experiments from figure 1.
 1. openjdk 11.0.15 2022-04-19 (sudo apt install openjdk-11-jre-headless on debian oses)
 2. go version go1.17.6 linux/amd64 or higher (brew install golang)
 3. PostgreSQL v14.3 (https://www.postgresql.org/download/)
+4. Apache Maven 3.6.3 (sudo apt install maven on debian oses)
 
 ## How to run
 NOTE: Experiments were ran with CSVLog enabled in PostgreSQL
