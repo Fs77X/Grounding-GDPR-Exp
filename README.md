@@ -5,9 +5,9 @@ We have split the repo into different branches for each of the experiments/syste
 
 List of branches:
 - DeleteExp
-- p1bench
-- p2ycsb
-- p2bench
-- p2ycsb
-- p3bench
-- p3ycsb
+- p_base
+- p_base_ycsb
+- P_UCI
+- P_UCI_ycsb
+- P_gbench
+- P_gbench_ycsb
