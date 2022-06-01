@@ -100,6 +100,8 @@ cd Grounding-GDPR-Exp/ttlscript
 go run ttldaemon.go {delete, vac, vacfull, tomb} # depending on the experiment, if you want to run normal deletes then give the delete argument for example
 ```
 
+NOTE: go may tell you to run a command to fetch the library in order to be able to run the script. Make sure to do that so you're able to run it!
+
 In the terminal where you loaded the dataset, run the experiment with the following command
 
 ```bash
