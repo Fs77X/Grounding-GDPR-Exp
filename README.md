@@ -32,6 +32,9 @@ In a terminal run the following as the postgres user:
 sudo su postgres # to switch to postgres
 psql
 CREATE ROLE admin WITH LOGIN;
+CREATE ROLE controller WITH LOGIN;
+CREATE ROLE customer WITH LOGIN;
+CREATE ROLE processor WITH LOGIN;
 CREATE DATABASE the_db;
 GRANT ALL PRIVILEGES ON DATABASE the_db TO admin;
 exit #CTRL+D
@@ -48,6 +51,13 @@ CREATE TABLE usertable(id character varying(50) NOT NULL,
   user_interest character varying(20),
   device_id integer NOT NULL
   );
+CREATE POLICY admin_controller ON usertable TO controller USING (true) WITH CHECK (true);
+GRANT SELECT, INSERT, UPDATE, DELETE ON usertable TO controller;
+CREATE POLICY admin_processor ON usertable TO processor USING (true) WITH CHECK (true);
+GRANT SELECT, INSERT, UPDATE, DELETE ON usertable TO processor;
+CREATE POLICY admin_customer ON usertable TO customer USING (true) WITH CHECK (true);
+GRANT SELECT, INSERT, UPDATE, DELETE ON usertable TO customer;
+ALTER table usertable enable row level security;
 ```
 
 Download the following jar files:
