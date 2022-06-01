@@ -122,16 +122,17 @@ router.post('/madd_obj/:device_id', async (req, res) => {
     })
 })
 
-router.get('/mget_entry/:id', async (req, res) => {
+router.get('/mget_entry/:device_id/:id', async (req, res) => {
     const entry = req.params.id
+    const device_id = req.params.device_id
     prop = "id"
     info = entry
     query = "mget_entry"
     updateKey = ""
-    qid = "mget_entry" + entry + Date.now()
+    qid = "mget_entry" + device_id + Date.now()
     client = new kafka.KafkaClient()
-    await prod(client, entry, prop, info, query, updateKey, '', null, null, qid)
-    get_data(1000, entry, qid).then((result) => {
+    await prod(client, device_id, prop, info, query, updateKey, '', null, null, qid)
+    get_data(1000, device_id, qid).then((result) => {
         res.status(200).send(result)
     }).catch(() => {
         console.log('mgetnetry timeout')
