@@ -439,7 +439,7 @@ public class JdbcDBClient extends DB {
       //   }
       // }
       // resultSet.close();
-      System.out.println("read okchamp");
+      // System.out.println("read okchamp");
       return performRead();
       
     } catch (SQLException e) {
@@ -1289,14 +1289,14 @@ public class JdbcDBClient extends DB {
       Connection c = getConnection();
       Statement statement = c.createStatement();
       StringBuilder sb = new StringBuilder("INSERT INTO usertable(id, shop_name, obs_date, obs_time, ");
-      sb.append("user_interest, device_id, tomb) VALUES(");
+      sb.append("user_interest, device_id) VALUES(");
       sb.append("\'").append(newObj.getMallData().getId()).append("\', ");
       sb.append("\'").append(newObj.getMallData().getShopName()).append("\', ");
       sb.append("\'").append(newObj.getMallData().getObsDate()).append("\', ");
       sb.append("\'").append(newObj.getMallData().getObsTime()).append("\', ");
       sb.append("\'").append(newObj.getMallData().getUserInterest()).append("\', ");
-      sb.append("\'").append(newObj.getMallData().getDeviceID()).append("\', ");
-      sb.append("\'").append(0).append("\')");
+      sb.append("\'").append(newObj.getMallData().getDeviceID()).append("\')");
+      // sb.append("\'").append(0).append("\')");
       statement.executeUpdate(sb.toString());
       log(newObj.getMallData().getDeviceID().toString(), sb.toString(), "INSERT USERDATA SUCC");
       StringBuilder sbM = new StringBuilder("INSERT INTO user_policy(id, purpose, querier, ttl, origin, objection, sharing");
