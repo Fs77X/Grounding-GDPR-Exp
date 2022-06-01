@@ -47,7 +47,17 @@ exit #exit postgres user
 To load the tables:
 ```bash
 psql -U sieve sieve
-\i /root/to/Grounding-GDPR-Exp/DataDefinition/sievemalldef.sql
+CREATE TABLE public.mall_observation (
+    id character varying(50) NOT NULL,
+    shop_name character varying(20) NOT NULL,
+    obs_date date NOT NULL,
+    obs_time time without time zone NOT NULL,
+    user_interest character varying(20),
+    device_id integer NOT NULL
+);
+
+
+ALTER TABLE public.mall_observation OWNER TO sieve;
 ```
 
 
